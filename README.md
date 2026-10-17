@@ -1,5 +1,14 @@
 # dog — Micro_Dog X430
 
+## 원작자 및 원본 소스
+
+**원작자: © 2026 moieboy9999**  
+**원본 소스 저장소: [moieboy9999/Micro_Dog](https://github.com/moieboy9999/Micro_Dog)**
+
+이 저장소는 원본 Micro_Dog를 바탕으로 X430 모터에 맞춰 수정한 **파생 프로젝트**입니다. 원본 설계의 저작권은 원작자에게 있으며, 이 저장소가 원본 프로젝트이거나 원작자의 공식 배포·승인을 받은 프로젝트라는 의미는 아닙니다.
+
+원본의 저작자 표시와 라이선스를 보존합니다. 기구·문서·메시·URDF·파라미터에는 **CC BY-NC-SA 4.0**, 소프트웨어 도구에는 **GPL-3.0-or-later**가 적용되며, ROBOTIS 등 제3자 자료의 권리는 별도로 존중합니다. 재배포·수정 시 [LICENSE](LICENSE), [LICENSE-SOFTWARE](LICENSE-SOFTWARE), [출처 및 수정 내역](ATTRIBUTION.md), [원본 저작자 표시](licenses/UPSTREAM_ATTRIBUTION.md), [제3자 고지](THIRD_PARTY_NOTICES.md)를 함께 확인하고 해당 조건을 따라 주세요.
+
 Micro_Dog를 바탕으로 만든 X430 시험용 기구 프로젝트입니다. 다리 외형은 1.5배 확대하고, **XM430-W210 ×4 / XL430-W250 ×8**에 맞춰 모터 결합부·베어링·골반·좌우 부품을 수정했습니다.
 
 ![Four-corner printed assembly](images/64_four_corner_printed_overview_edges.jpg)
