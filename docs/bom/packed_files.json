@@ -1,30 +1,13 @@
 [
   {
-    "path": "cad/stl/LH_XL430_thigh_finish_v2_fine005.stl",
-    "bytes": 14542184,
-    "sha256": "9047f457ac42e8384424c823f7730fb696b8dfba642826761f44a489e81a110a",
-    "encoding": "gzip",
-    "sources": [
-      "cad/stl/LH_XL430_thigh_finish_v2_fine005.stl.gz"
-    ]
-  },
-  {
-    "path": "cad/stl/RR_XL430_thigh_finish_v2_fine005.stl",
-    "bytes": 14341084,
-    "sha256": "6c28571a567d9a42b985946fea726201387cbd39cf7ea6b7587750b2f6ee943d",
-    "encoding": "gzip",
-    "sources": [
-      "cad/stl/RR_XL430_thigh_finish_v2_fine005.stl.gz"
-    ]
-  },
-  {
-    "path": "cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd",
-    "bytes": 13590628,
-    "sha256": "f2749bc55800bcf5e7798e6f729a45aca14ab6e9c3f28ae7590687a3b68f797e",
+    "path": "cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd",
+    "bytes": 16525718,
+    "sha256": "07dcc8bf3d8e078674dafdda136042602a496c1a40073b4d0c3416bf9d459432",
     "encoding": "concatenate",
     "sources": [
-      "cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd.part001",
-      "cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd.part002"
+      "cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd.part001",
+      "cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd.part002",
+      "cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd.part003"
     ]
   }
 ]

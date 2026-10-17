@@ -10,9 +10,6 @@ log/
 *.zip
 
 # Exact restored copies; packed source files are tracked.
-/cad/stl/LH_XL430_thigh_finish_v2_fine005.stl
-/cad/stl/RR_XL430_thigh_finish_v2_fine005.stl
-/cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd
 
 /output/
 
@@ -22,3 +19,4 @@ log/
 /docs/assembly/manual_v2/source/meshes.json.gz
 /docs/assembly/manual_v2/Micro_Dog_X430_Assembly_Manual_KO_v*.pdf
 /docs/assembly/manual_v2/review/
+/cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd

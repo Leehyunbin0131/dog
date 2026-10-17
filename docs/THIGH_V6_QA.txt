@@ -1,0 +1,56 @@
+THIGH V6 — GEOMETRY AND PURCHASE-LIST REVIEW
+Reviewed 2026-10-17 UTC. Geometry edited through FreeCAD GUI; this review was read-only.
+
+Reviewed native model: RR_XL430_thigh_v6_thin_flatback.FCStd.
+RR accepted object: Cut001. LH accepted object: Part__Mirroring, source Cut001, plane Z=0.
+Other historical objects in the native document are not the accepted export targets.
+
+RESULT
+Both native parts are valid single solids, 802 faces, volume 61792.0124501 mm3 each.
+The LH mirror convention matches the previous released LH part.
+Forward broad extrusion is 0 mm; reverse backfill remains 6.1 mm. The original outer junction surfaces and four existing localized mounting supports are retained. The previous rear circular protrusion is removed. Suspect rear spline bounding boxes extend below X=3, but their actual vertices and 0.02 mm tessellation samples remain at X>=3 within numerical roundoff.
+Selected original junction faces, all four localized support faces, rear bores/countersinks and pitch bores match the source geometry by surface type, area, centroid and bounds.
+
+FASTENERS / ADDITIONAL PURCHASES
+No additional purchase or screw-length change is indicated by this thigh revision.
+- Rear knee fasteners remain M2.5 x 20, 90-degree countersunk heads, specified head diameter <=4.7 mm.
+- Countersink radius 2.5 at X=4.2 tapers to radius 1.4 at X=5.3. Bore diameter 2.8 extends to X=12.
+- Nominal specified head top X=4.35 and screw tip X=24.35 are unchanged.
+- Pitch fasteners remain M2 x 8. Diameter 2.4 holes span X=3..9: 6 mm grip and nominal 2 mm insertion.
+- Four integrated support faces remain at X=12, OD6.5/ID2.8, area27.0255508 mm2 each, centered at Y=+/-11 and Z=-93.5/-53.5.
+- These supports already existed beneath the former broad plate. They are not the separate keyed spacers.
+- Retain four existing keyed XL spacers per knee (16 across four legs). Their assembled envelope begins at X=12 and ends at X=15.9. Do not add another 3 mm spacer.
+- Existing assembly sequence remains: route cable and fit knee spacers/rear screws before installing the pitch assembly.
+These nominal dimensions do not replace checking purchased screw head/length tolerances and printed fit.
+
+ACTIVE-HARDWARE CHECK
+Saved-pose solid intersections are zero with the actual knee case, two connector parts, four existing rear keyed spacers, pitch case and pitch support.
+Connector minimum distances are 1.04043 and 1.66208 mm. Intended support contacts have near-zero distance.
+The unused optional official opposite idler was excluded, as required by the actual build.
+No full-motion, real cable-bend, driver-envelope, strength or load certification is claimed.
+
+EXPORT CHECKS
+RR STEP: valid single solid,802 faces,volume61790.8046091 mm3.
+LH STEP: valid single solid,802 faces,volume61791.0731905 mm3.
+Native-to-STEP and RR/LH STEP volume differences are small but nonzero; exact exported BREP equivalence is not claimed. 770/802 mirrored STEP face signatures match at 1e-4 rounding; remaining differences include numerical surface/trim representations. Native source mirroring is exact.
+RR STL:39948 vertices,79972 triangles; one closed component; no boundary, nonmanifold or inconsistent-orientation edges.
+LH STL:39951 vertices,79978 triangles; same topology checks pass.
+RR STL bounds(mm): X3..44.625,Y-158.25..21,Z-103.5..-42.75.
+LH STL bounds(mm): X3..44.625,Y-158.25..21,Z42.75..103.5.
+Both meshes were generated in GUI with reported absolute deviation0.05 mm/angular10 degrees. No independent Hausdorff tolerance certification was performed. Triangle counts differ; they are not identical tessellations.
+
+LIMITS / PRINTING
+Ordinary shape validity passes. Deep BOP checking retains inherited InvalidCurveOnSurface warnings, so arbitrary later Boolean edits are not guaranteed robust.
+Watertight meshes do not prove support-free printing. The existing guide uses long-arm outer plane X=44.625 on the bed, printing toward -X, with supports checked beneath the proximal plate, internal ceilings and bearing steps. Actual slicer support placement/removal paths have not been validated here. Keep supports out of bores and cable routes; verify actual printed fit before a full four-leg run.
+
+SHA256
+Native paired document:
+07dcc8bf3d8e078674dafdda136042602a496c1a40073b4d0c3416bf9d459432
+RR STEP:
+e67b50b25c0227456b68d0475fbb78e9ad4e4e29e94a7e8756c48ae453f7da69
+LH STEP:
+b3a6c08a890502b644d2250ff30a9752111a8b7119bd48eb505e4e655fc57e2e
+RR STL:
+7327fa06797f1430d5e5d5bb341e315def2f48c9f0b571f7417ccee82c066330
+LH STL:
+d44fc442b7198a3f0113b1a4401c74b59cbde97b83293a46c20bb141654ab228

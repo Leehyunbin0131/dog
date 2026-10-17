@@ -1,17 +1,17 @@
 [
   {
-    "file": "RR_XL430_thigh_finish_v2_fine005.stl",
+    "file": "RR_XL430_thigh_finish_v6_fine005.stl",
     "quantity": 2,
     "material": "PLA",
-    "bytes": 14341084,
-    "sha256": "6c28571a567d9a42b985946fea726201387cbd39cf7ea6b7587750b2f6ee943d"
+    "bytes": 3998684,
+    "sha256": "7327fa06797f1430d5e5d5bb341e315def2f48c9f0b571f7417ccee82c066330"
   },
   {
-    "file": "LH_XL430_thigh_finish_v2_fine005.stl",
+    "file": "LH_XL430_thigh_finish_v6_fine005.stl",
     "quantity": 2,
     "material": "PLA",
-    "bytes": 14542184,
-    "sha256": "9047f457ac42e8384424c823f7730fb696b8dfba642826761f44a489e81a110a"
+    "bytes": 3998984,
+    "sha256": "d44fc442b7198a3f0113b1a4401c74b59cbde97b83293a46c20bb141654ab228"
   },
   {
     "file": "RR_shank_MR137ZZ4_fine005.stl",

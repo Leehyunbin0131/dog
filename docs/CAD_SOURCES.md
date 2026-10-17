@@ -2,8 +2,7 @@
 
 These documents preserve the relevant editable work, including hidden intermediate/reference objects. Exported final STL/STEP remains authoritative; source documents have not been fully recomputed or proven feature-by-feature equivalent. Select the final body rather than exporting every object.
 
-- `RR_XL430_thigh_finish_v2_fine005.stl`: `cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd`
-- `LH_XL430_thigh_finish_v2_fine005.stl`: `cad/freecad/parts/LH_XL430_thigh_finish_v2.FCStd`
+- RR/LH `*_XL430_thigh_finish_v6_fine005.stl`: `cad/freecad/parts/RR_XL430_thigh_v6_thin_flatback.FCStd`; final RR object `Cut001`, final LH object `Part__Mirroring` (XY mirror). Hidden historical objects are not manufacturing outputs.
 - `RR_shank_MR137ZZ4_fine005.stl`: `cad/freecad/parts/RR_shank_MR137ZZ4_working.FCStd`
 - `LH_shank_MR137ZZ4_fine005.stl`: `cad/freecad/parts/LH_shank_MR137ZZ4.FCStd`
 - `RR_shank_companion_original_shape_fine005.stl`: `cad/freecad/parts/RR_shank_companion_original_shape_working.FCStd`
