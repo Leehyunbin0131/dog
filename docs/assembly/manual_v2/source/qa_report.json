@@ -1,140 +1,270 @@
 {
-  "artifact": "Micro_Dog_X430_Assembly_Manual_KO_v2.pdf",
-  "sha256": "95d5a4e7eca46312946c1a699aa11fdd93f82e8862afd268c6134025ec167164",
-  "bytes": 4078840,
+  "revision": 3,
+  "approved_pdf_sha256": "f3ee08bcffafed3f60d5535f5efc6403afcbbb276325d1daff7912f2ade109fe",
+  "approved_pdf_bytes": 4502371,
   "pages": 31,
-  "review_method": "Every page inspected as an individual rendered PNG; modified pages inspected again after corrections. Final publication candidate independently reviewed.",
-  "cad_unchanged": true,
-  "fastener_count_one_leg": 36,
-  "limitations": [
-    "Nominal CAD illustration, not physical fit/load/torque certification",
-    "Bearing and fastener meshes are dimensional explanatory shapes, not manufacturer purchased-part models",
-    "Four-corner motors reconstructed from RR source under documented corner transforms"
-  ],
-  "page_review": [
+  "original_final_verification": {
+    "Ghostscript": "All 31 pages individually visually inspected: pass",
+    "PDFium": "All 31 pages individually visually inspected: pass",
+    "Poppler": "All 31 pages rendered as additional evidence; not individually visually reviewed"
+  },
+  "content": "Normalized text matches REV 2 except revision labels. CAD, figure assets, BOM and assembly order unchanged.",
+  "recovery_verification": {
+    "rebuilt_pdf_sha256": "10b97410ccbf90f9352a7ee55bd49af3d97452f228c8ba9d5d34bbcfb8f2cd7c",
+    "approved_pdf_unchanged": true,
+    "exact_text_equal_pages": 31,
+    "mupdf_scale_1_666_pixel_exact_pages": 31,
+    "ghostscript_120dpi_pixel_exact_pages": 31
+  },
+  "per_page": [
     {
       "page": 1,
-      "finding": "Clean motor solids, complete CAD overview, revised color-key card"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 2,
-      "finding": "Revised color key; retained corner print overview"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 3,
-      "finding": "Retained verified actual-part tray"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 4,
-      "finding": "Retained verified actual-part tray"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 5,
-      "finding": "Retained verified actual-part tray"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 6,
-      "finding": "Hardware totals unchanged and checked:144 screws,32 nuts,16 washers"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 7,
-      "finding": "Bearing sizes unchanged; concise physical-fit trial note"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 8,
-      "finding": "Removed floating manufacturer hardware; clean cable-preparation context"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 9,
-      "finding": "Six M3 nut pockets in separate exposed component views; two side-entry M2.5 nuts"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 10,
-      "finding": "Uncropped pushrod/crank assembly; actual-axis M3x12 and nut"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 11,
-      "finding": "Uncropped distal linkage, reverse view exposes M3x14"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 12,
-      "finding": "Four long knee screws shown pre-seated before pitch assembly"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 13,
-      "finding": "Single thigh; pitch-horn fasteners aligned to CAD axes"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 14,
-      "finding": "Single thigh; four separated XL spacers and new knee motor"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 15,
-      "finding": "Two case-only access rotations with fixed horn; explicit zoom framing"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 16,
-      "finding": "Complete open-module context for both tool-access poses"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 17,
-      "finding": "Large cap/bearing/inner shank separately shown; no premature M3 tightening"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 18,
-      "finding": "Companion closes with M3x22 and two M3x18; no premature foot"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 19,
-      "finding": "TPU foot addition with M3x18"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 20,
-      "finding": "Crank-horn four M2x8 with completed linkage context"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 21,
-      "finding": "Four separated XM spacers and yoke, correct case-screw axes"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 22,
-      "finding": "Four roll screws and washers; separate one-set washer stack inset"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 23,
-      "finding": "Orange opposite carrier, eight screw axes, pelvis detail and wholeleg context"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 24,
-      "finding": "Distinct teal roll bearing, orange support, two M2.5 screws; wholeleg context"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 25,
-      "finding": "Six M3 locations labelled A-F; G omitted because support hidden from this view"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 26,
-      "finding": "Original dimensional protrusion notes retained"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 27,
-      "finding": "Motors included in four-corner reference reconstruction, FRONT arrow and limitation"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 28,
-      "finding": "Original print-trial directions retained"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 29,
-      "finding": "Original print-orientation notes retained"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 30,
-      "finding": "Original final mechanical/cable checks retained, physical testing not claimed"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     },
     {
       "page": 31,
-      "finding": "Sources retained; revised CAD-render provenance and no physical-fit claim"
+      "original_ghostscript_visual": "pass",
+      "original_pdfium_visual": "pass",
+      "recovery_exact_text": "pass",
+      "recovery_mupdf_pixels": "identical",
+      "recovery_ghostscript_pixels": "identical"
     }
-  ]
+  ],
+  "limits": "Physical fit not certified. Existing minor p1 punctuation wrap retained."
 }

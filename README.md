@@ -23,7 +23,7 @@ Micro_Dog를 바탕으로 만든 X430 시험용 기구 프로젝트입니다. �
 - [파라미터형 URDF 패키지](descriptions/micro_dog_x430_description/)
 - [검증 범위와 한계](docs/VALIDATION.md) · [출처와 라이선스](ATTRIBUTION.md)
 
-조립 설명서는 **REV 3**입니다. 일부 PDF 뷰어에서 한글 캡션이 깨지던 글꼴 임베딩 방식을 수정했습니다. Ghostscript와 PDFium으로 31쪽 전체를 각각 검토했고 Poppler 렌더링도 확인했습니다. REV 2의 그림·조립 내용은 그대로입니다. [소스 상태](docs/REBUILD_MANUAL.md)를 확인하세요. 현재 저장소의 그림·고정 메시·재생성 코드는 REV 2 기준이며, REV 3 글꼴 임베딩 소스 복구는 진행 중입니다. 기구 형상은 변경하지 않았습니다.
+조립 설명서는 **REV 3**입니다. 일부 PDF 뷰어에서 한글 캡션이 깨지던 글꼴 임베딩 방식을 수정했습니다. Ghostscript와 PDFium으로 31쪽 전체를 각각 검토했고 Poppler 렌더링도 확인했습니다. REV 2의 그림·조립 내용은 그대로입니다. [재생성 방법](docs/REBUILD_MANUAL.md)과 [소스·그림·고정 메시 입력](docs/assembly/manual_v2/)도 포함합니다. 기구 형상은 변경하지 않았습니다.
 
 ## 현재 범위
 

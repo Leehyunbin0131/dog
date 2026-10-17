@@ -15,3 +15,10 @@ log/
 /cad/freecad/parts/RR_XL430_thigh_finish_v2_lean.FCStd
 
 /output/
+
+# Generated manual build and verification files
+/docs/assembly/manual_v2/source/raster.so
+/docs/assembly/manual_v2/source/meshes.json
+/docs/assembly/manual_v2/source/meshes.json.gz
+/docs/assembly/manual_v2/Micro_Dog_X430_Assembly_Manual_KO_v*.pdf
+/docs/assembly/manual_v2/review/

@@ -2,12 +2,25 @@ import fitz,json
 from pathlib import Path
 BASE=Path(__file__).resolve().parents[4];OUT=Path(__file__).resolve().parents[1]
 doc=fitz.open(OUT/'base_revision1.pdf')
-font=str(OUT/'source'/'NotoSansKRSubset.otf')
+font=str(OUT/'source'/'ManualNotoKR.ttf')
+from io import BytesIO
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.utils import simpleSplit
+pdfmetrics.registerFont(TTFont('ManualKoreanSafe',font))
 def text(page,rect,s,size=9,color=(.13,.25,.34),fill=(1,1,1)):
  page.draw_rect(fitz.Rect(rect),color=None,fill=fill,overlay=True)
- page.insert_font(fontname='noto',fontfile=font)
- r=page.insert_textbox(fitz.Rect(rect),s,fontname='noto',fontsize=size,color=color,lineheight=1.45,overlay=True)
- if r<0:raise ValueError(('text overflow',page.number+1,s,r))
+ lines=[]
+ for line in s.split('\n'):
+  lines.extend(simpleSplit(line,'ManualKoreanSafe',size,rect[2]-rect[0]) if line else [''])
+ lineheight=size*1.682
+ if len(lines)*lineheight > rect[3]-rect[1]+size*.5:raise ValueError(('text overflow',page.number+1,s))
+ buf=BytesIO();c=canvas.Canvas(buf,pagesize=(page.rect.width,page.rect.height));c.setFont('ManualKoreanSafe',size);c.setFillColorRGB(*color)
+ y=page.rect.height-rect[1]-size*1.16
+ for line in lines:
+  c.drawString(rect[0],y,line);y-=lineheight
+ c.save();overlay=fitz.open(stream=buf.getvalue(),filetype='pdf');page.show_pdf_page(page.rect,overlay,0)
 def image(page,rect,name):
  page.draw_rect(fitz.Rect(rect),color=None,fill=(1,1,1),overlay=True)
  page.insert_image(fitz.Rect(rect),filename=str(OUT/'assets'/f'{name}.png'),keep_proportion=True,overlay=True)
@@ -27,7 +40,7 @@ for n,names in map.items():
   for block,name in zip(blocks,names):image(p,block['bbox'],name)
 # Consistent reading key. All frame geometry is newly projected from the source assembly.
 p=doc[1];p.add_redact_annot(fitz.Rect(520,120,810,342),fill=(1,1,1));p.apply_redactions(images=0,graphics=0);text(p,(535,130,800,330),'그림 색상\n주황: 이번 단계에 추가하는 부품\n회색: 먼저 조립한 출력물\n진회색: 모터 참고 형상\n청록: 베어링 / 와셔\n파랑: 나사와 삽입축\n황동색: 너트\n\n화살표는 실제 나사축을 따릅니다.\n체결품은 치수에 맞춘 개략 형상입니다.',9)
-text(doc[0],(600,22,810,40),'ASSEMBLY MANUAL / REV 2 - FIGURES',7)
+text(doc[0],(600,22,810,40),'ASSEMBLY MANUAL / REV 3 - FIGURES',7)
 text(doc[8],(40,385,405,520),'M3 너트 6개 미리 넣기\n1 안쪽 종아리: 중간 2개 + 발끝 1개\n2 반대판 큰 관절: 1개\n3 작은 캡: 각 1개, 두 캡 합계 2개\n너트는 육각 포켓의 받침면에 맞춥니다.',9)
 text(doc[8],(445,385,805,520),'요크 M2.5 너트 2개\n측면 열린 슬롯에서 넣어 두 나사축에 맞춥니다.\n나사 삽입 방향과 너트 삽입 방향은 다릅니다.\n대변 5 × 두께 2 mm. M3는 사용하지 않습니다.',9)
 # Replace only right-hand figure descriptions. Bottom safety/dimension notes remain intact.
@@ -80,7 +93,7 @@ for page,rect,title,body in [
  text(page,(rect[0]+12,rect[1]+10,rect[2]-12,rect[1]+34),title,12,fill=bg)
  text(page,(rect[0]+12,rect[1]+38,rect[2]-12,rect[3]-7),body,9.5,fill=bg)
 # Source and publication audit notes, no claim of physical validation.
-text(doc[30],(38,480,805,542),'REV 2: 최종 CAD 형상에서 조립 그림 재생성. 모터 참고 모델의 떠 있는 기본 나사·중복 형상을 제외했습니다. 나사 36개 축은 CAD 구멍과 대조했습니다. 베어링·체결품은 명목 치수의 설명용 형상이며 실물 공차·체결 토크·배선 동작은 미검증입니다.',8)
-doc.set_metadata({**doc.metadata,'title':'Micro_Dog X430 - 한국어 조립 설명서 REV 2','subject':'CAD-based assembly figures, revised and reviewed'})
-out=OUT/'Micro_Dog_X430_Assembly_Manual_KO_v2.pdf';doc.save(out,garbage=4,deflate=True);print(out)
+text(doc[30],(38,480,805,542),'REV 3: 최종 CAD 형상에서 조립 그림 재생성. 모터 참고 모델의 떠 있는 기본 나사·중복 형상을 제외했습니다. 나사 36개 축은 CAD 구멍과 대조했습니다. 베어링·체결품은 명목 치수의 설명용 형상이며 실물 공차·체결 토크·배선 동작은 미검증입니다.',8)
+doc.set_metadata({**doc.metadata,'title':'Micro_Dog X430 - 한국어 조립 설명서 REV 3','subject':'CAD-based assembly figures, revised and reviewed'})
+out=OUT/'Micro_Dog_X430_Assembly_Manual_KO_v3.pdf';doc.save(out,garbage=4,deflate=True);print(out)
 

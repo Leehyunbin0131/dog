@@ -17,4 +17,4 @@ Original mechanical work: © 2026 moieboy9999, CC BY-NC-SA 4.0. `licenses/UPSTRE
 
 ## Fonts
 
-The assembly PDF embeds renamed subsets derived from Noto Sans CJK, licensed under SIL Open Font License 1.1. The upstream font copyright and license are in `licenses/NOTO-OFL.txt`. Full font files are not redistributed. The REV 3 PDF embeds renamed Noto-derived TrueType subsets under SIL OFL 1.1. The source directory currently retains the REV 2 pipeline; recovery of the REV 3 generation/conversion sources is pending.
+The assembly PDF embeds renamed subsets derived from Noto Sans CJK, licensed under SIL Open Font License 1.1. The upstream font copyright and license are in `licenses/NOTO-OFL.txt`. Full font files are not redistributed. REV 3 includes renamed Noto-derived TrueType subset fonts and their generation/conversion scripts under docs/assembly/manual_v2/source; the font remains under SIL OFL 1.1.
