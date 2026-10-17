@@ -1,0 +1,140 @@
+{
+  "artifact": "Micro_Dog_X430_Assembly_Manual_KO_v2.pdf",
+  "sha256": "95d5a4e7eca46312946c1a699aa11fdd93f82e8862afd268c6134025ec167164",
+  "bytes": 4078840,
+  "pages": 31,
+  "review_method": "Every page inspected as an individual rendered PNG; modified pages inspected again after corrections. Final publication candidate independently reviewed.",
+  "cad_unchanged": true,
+  "fastener_count_one_leg": 36,
+  "limitations": [
+    "Nominal CAD illustration, not physical fit/load/torque certification",
+    "Bearing and fastener meshes are dimensional explanatory shapes, not manufacturer purchased-part models",
+    "Four-corner motors reconstructed from RR source under documented corner transforms"
+  ],
+  "page_review": [
+    {
+      "page": 1,
+      "finding": "Clean motor solids, complete CAD overview, revised color-key card"
+    },
+    {
+      "page": 2,
+      "finding": "Revised color key; retained corner print overview"
+    },
+    {
+      "page": 3,
+      "finding": "Retained verified actual-part tray"
+    },
+    {
+      "page": 4,
+      "finding": "Retained verified actual-part tray"
+    },
+    {
+      "page": 5,
+      "finding": "Retained verified actual-part tray"
+    },
+    {
+      "page": 6,
+      "finding": "Hardware totals unchanged and checked:144 screws,32 nuts,16 washers"
+    },
+    {
+      "page": 7,
+      "finding": "Bearing sizes unchanged; concise physical-fit trial note"
+    },
+    {
+      "page": 8,
+      "finding": "Removed floating manufacturer hardware; clean cable-preparation context"
+    },
+    {
+      "page": 9,
+      "finding": "Six M3 nut pockets in separate exposed component views; two side-entry M2.5 nuts"
+    },
+    {
+      "page": 10,
+      "finding": "Uncropped pushrod/crank assembly; actual-axis M3x12 and nut"
+    },
+    {
+      "page": 11,
+      "finding": "Uncropped distal linkage, reverse view exposes M3x14"
+    },
+    {
+      "page": 12,
+      "finding": "Four long knee screws shown pre-seated before pitch assembly"
+    },
+    {
+      "page": 13,
+      "finding": "Single thigh; pitch-horn fasteners aligned to CAD axes"
+    },
+    {
+      "page": 14,
+      "finding": "Single thigh; four separated XL spacers and new knee motor"
+    },
+    {
+      "page": 15,
+      "finding": "Two case-only access rotations with fixed horn; explicit zoom framing"
+    },
+    {
+      "page": 16,
+      "finding": "Complete open-module context for both tool-access poses"
+    },
+    {
+      "page": 17,
+      "finding": "Large cap/bearing/inner shank separately shown; no premature M3 tightening"
+    },
+    {
+      "page": 18,
+      "finding": "Companion closes with M3x22 and two M3x18; no premature foot"
+    },
+    {
+      "page": 19,
+      "finding": "TPU foot addition with M3x18"
+    },
+    {
+      "page": 20,
+      "finding": "Crank-horn four M2x8 with completed linkage context"
+    },
+    {
+      "page": 21,
+      "finding": "Four separated XM spacers and yoke, correct case-screw axes"
+    },
+    {
+      "page": 22,
+      "finding": "Four roll screws and washers; separate one-set washer stack inset"
+    },
+    {
+      "page": 23,
+      "finding": "Orange opposite carrier, eight screw axes, pelvis detail and wholeleg context"
+    },
+    {
+      "page": 24,
+      "finding": "Distinct teal roll bearing, orange support, two M2.5 screws; wholeleg context"
+    },
+    {
+      "page": 25,
+      "finding": "Six M3 locations labelled A-F; G omitted because support hidden from this view"
+    },
+    {
+      "page": 26,
+      "finding": "Original dimensional protrusion notes retained"
+    },
+    {
+      "page": 27,
+      "finding": "Motors included in four-corner reference reconstruction, FRONT arrow and limitation"
+    },
+    {
+      "page": 28,
+      "finding": "Original print-trial directions retained"
+    },
+    {
+      "page": 29,
+      "finding": "Original print-orientation notes retained"
+    },
+    {
+      "page": 30,
+      "finding": "Original final mechanical/cable checks retained, physical testing not claimed"
+    },
+    {
+      "page": 31,
+      "finding": "Sources retained; revised CAD-render provenance and no physical-fit claim"
+    }
+  ]
+}

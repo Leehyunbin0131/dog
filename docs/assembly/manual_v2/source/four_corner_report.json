@@ -1,0 +1,105 @@
+{
+  "sources": {
+    "frames": "descriptions/micro_dog_x430_description/config/cad_frames.json",
+    "frames_sha256": "d7f4417d7eaf8f9079afbe21755334e523a71de6d68f89a0e29a898724a96189"
+  },
+  "method": "RR exact tessellated CAD geometry, transformed by documented leg/pelvis affine matrices. Determinant-negative transforms reverse winding. All four corners retain original CAD pose; no schematic pose symmetry.",
+  "warnings": [
+    "Four-corner overview includes only printed solids; applying identical transforms to motors is a reconstruction, not independently modeled motor instances.",
+    "Front leg is mirrored in X about 38.75 mm; front pelvis is not. Rear/front and left/right transforms must be selected by group."
+  ],
+  "renders": {
+    "four_corner_motors": {
+      "view": [
+        0.35,
+        -1,
+        1.35
+      ],
+      "size": [
+        1700,
+        1050
+      ],
+      "triangles": 3291032,
+      "parts": null,
+      "bounds_robot_mm": [
+        [
+          -295.74891590040204,
+          -99.8125,
+          -164.99854022516797
+        ],
+        [
+          156.5,
+          99.8125,
+          52.7938366568383
+        ]
+      ]
+    },
+    "four_corner_pitch_top": {
+      "view": [
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1800,
+        1000
+      ],
+      "triangles": 821868,
+      "parts": [
+        "260",
+        "261",
+        "262",
+        "263",
+        "pitch",
+        "roll",
+        "277",
+        "278",
+        "279",
+        "280"
+      ],
+      "bounds_robot_mm": [
+        [
+          -156.5,
+          -45.49999999999999,
+          -18.75
+        ],
+        [
+          156.5,
+          45.49999999999999,
+          36.49999999999999
+        ]
+      ]
+    }
+  },
+  "transform_checks": {
+    "RR": {
+      "pelvis": 1.0,
+      "leg": 1.0
+    },
+    "LR": {
+      "pelvis": -1.0,
+      "leg": -1.0
+    },
+    "FR": {
+      "pelvis": -1.0,
+      "leg": 1.0
+    },
+    "FL": {
+      "pelvis": 1.0,
+      "leg": -1.0
+    }
+  },
+  "roll_motor_aabb_max_error_mm": {
+    "RR": 2.1316282072803006e-14,
+    "LR": 2.1316282072803006e-14,
+    "FR": 2.1316282072803006e-14,
+    "FL": 2.1316282072803006e-14
+  },
+  "motor_instances": 12,
+  "corner_labels": [
+    "RR",
+    "LR",
+    "FR",
+    "FL"
+  ]
+}

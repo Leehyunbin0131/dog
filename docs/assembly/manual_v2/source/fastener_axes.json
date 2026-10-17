@@ -1,0 +1,4027 @@
+{
+  "source_fcstd": "cad/freecad/assemblies/RR_complete_leg_pelvis_final.FCStd",
+  "source_sha256": "c71085f50aa5a1b083f83c60ddd83028bcefb58cd523d4ea14dcf93c387da2b3",
+  "units": "mm",
+  "coordinate_frame": "L = RR Part internal coordinates",
+  "frame_notes": [
+    "Pelvis objects 260..263 and XM motor are NOT children of RR Part; their native placed shapes are H/global.",
+    "H/global to L: Lx=Hy, Ly=38.75-Hx, Lz=Hz-75.5.",
+    "Shape geometry already contains its own Placement. Apply shape_to_L directly to obj.Shape; do not apply placement_to_L again.",
+    "placement_to_L instead maps the unplaced object-native geometry into L.",
+    "insertion_axis_L points from screw head toward screw tip. Flat/cap/pan head reference is underhead; countersunk reference is top of head.",
+    "Nut center = nut seat + insertion_axis * nut_thickness/2."
+  ],
+  "H_to_L_matrix": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      38.75
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -75.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "objects": {
+    "Part__Feature251": {
+      "key": "inner_shank",
+      "label_ko": "안쪽 종아리",
+      "cad_label": "RR_inner_shank_4mm",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.4375
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -142.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        30.9375,
+        44.625,
+        -158.967073705,
+        -95.818993124,
+        -244.123821493,
+        -69.032926295
+      ]
+    },
+    "Part__Feature252": {
+      "key": "companion_shank",
+      "label_ko": "종아리 반대판",
+      "cad_label": "RR_companion_shank",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          46.3125
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -142.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        44.8125,
+        54.105432989,
+        -159.547677155,
+        -96.104630515,
+        -244.123821493,
+        -45.634881897
+      ]
+    },
+    "Part__Feature253": {
+      "key": "knee_crank",
+      "label_ko": "무릎 크랭크",
+      "cad_label": "RR_knee_crank",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          48.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        46.5,
+        54.2,
+        -17.943670305,
+        17.943670449,
+        -101.735883004,
+        -45.634881897
+      ]
+    },
+    "Part__Feature254": {
+      "key": "pushrod",
+      "label_ko": "푸시로드",
+      "cad_label": "RR_pushrod",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          57.1875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -57.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        51.1875,
+        57.1875,
+        -154.5,
+        12.0,
+        -69.0,
+        -32.704037756
+      ]
+    },
+    "Part__Feature255": {
+      "key": "large_cap",
+      "label_ko": "큰 베어링 고정 캡",
+      "cad_label": "RR_large_cap_4mm",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          43.5
+        ],
+        [
+          0.0,
+          0.550611871,
+          -0.834761384,
+          -142.5
+        ],
+        [
+          0.0,
+          -0.834761384,
+          -0.550611871,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        40.875,
+        45.3,
+        -148.85,
+        -136.15,
+        -91.85,
+        -79.15
+      ]
+    },
+    "Part__Feature256": {
+      "key": "small_cap_motor",
+      "label_ko": "모터쪽 작은 캡",
+      "cad_label": "RR_small_cap_motor",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          56.3125
+        ],
+        [
+          0.0,
+          0.709784692,
+          0.70441869,
+          0.0
+        ],
+        [
+          0.0,
+          -0.70441869,
+          0.709784692,
+          -57.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        54.175,
+        59.3125,
+        -7.576690861,
+        7.576690861,
+        -64.576690861,
+        -49.423309139
+      ]
+    },
+    "Part__Feature257": {
+      "key": "small_cap_distal",
+      "label_ko": "종아리쪽 작은 캡",
+      "cad_label": "RR_small_cap_distal",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          56.1875
+        ],
+        [
+          0.0,
+          0.634777716,
+          0.772694799,
+          -142.5
+        ],
+        [
+          0.0,
+          -0.772694799,
+          0.634777716,
+          -57.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        54.05,
+        59.1875,
+        -150.040629778,
+        -134.959370222,
+        -64.540629778,
+        -49.459370222
+      ]
+    },
+    "Part__Feature258": {
+      "key": "thigh",
+      "label_ko": "대퇴",
+      "cad_label": "Cut007",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        2.99327245,
+        46.113961891,
+        -159.547677155,
+        21.310662459,
+        -103.5,
+        -35.272907823
+      ]
+    },
+    "Part__Feature259": {
+      "key": "tpu_foot",
+      "label_ko": "TPU 발",
+      "cad_label": "\\X2\\BC1C\\X0\\005",
+      "parent_names": [
+        "Part"
+      ],
+      "placement_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          49.6875
+        ],
+        [
+          0.0,
+          0.006852109,
+          0.999976524,
+          -141.503
+        ],
+        [
+          0.0,
+          0.999976524,
+          -0.006852109,
+          -85.5034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        33.915070458,
+        48.209929542,
+        -169.242776795,
+        -120.638307967,
+        -255.289170932,
+        -212.595757255
+      ]
+    },
+    "Part__Feature260": {
+      "key": "roll_horn_carrier",
+      "label_ko": "롤 혼 쪽 캐리어",
+      "cad_label": "Fillet002",
+      "parent_names": [],
+      "placement_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.75
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -75.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.75
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -75.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -28.0,
+        5.0,
+        24.0,
+        42.75,
+        -104.25,
+        -66.75
+      ]
+    },
+    "Part__Feature261": {
+      "key": "roll_bearing_carrier",
+      "label_ko": "롤 베어링 쪽 캐리어",
+      "cad_label": "Fillet003",
+      "parent_names": [],
+      "placement_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -11.75
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -95.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.75
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -75.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -28.0,
+        2.5,
+        -16.75,
+        8.0,
+        -104.25,
+        -66.75
+      ]
+    },
+    "Part__Feature262": {
+      "key": "fixed_support",
+      "label_ko": "고정 베어링 지지대",
+      "cad_label": "Chamfer",
+      "parent_names": [],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -36.5
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -16.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -93.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.75
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -75.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -40.5,
+        -3.382058498,
+        -22.75,
+        -12.375,
+        -98.063609177,
+        -72.936390823
+      ]
+    },
+    "Part__Feature263": {
+      "key": "pelvis_yoke",
+      "label_ko": "U자 골반 요크",
+      "cad_label": "Cut005",
+      "parent_names": [],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -61.5
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          45.75
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.75
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -75.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -41.632846414,
+        4.5,
+        -16.75,
+        48.75,
+        -98.0,
+        -49.0
+      ]
+    },
+    "Part__Feature211": {
+      "key": "xl_rear_spacer_1",
+      "label_ko": "무릎 XL 뒤쪽 키 스페이서",
+      "cad_label": "DC11_A01_SPACER_DUMMY004",
+      "parent_names": [
+        "DC11_A01_DUMMY_ASM"
+      ],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          14.8
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -11.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -93.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          29.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        12.0,
+        15.900001489,
+        -14.25,
+        -7.75,
+        -96.75,
+        -90.25
+      ]
+    },
+    "Part__Feature212": {
+      "key": "xl_rear_spacer_2",
+      "label_ko": "무릎 XL 뒤쪽 키 스페이서",
+      "cad_label": "DC11_A01_SPACER_DUMMY005",
+      "parent_names": [
+        "DC11_A01_DUMMY_ASM"
+      ],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          14.8
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          11.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -93.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          29.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        12.0,
+        15.900001489,
+        7.75,
+        14.25,
+        -96.75,
+        -90.25
+      ]
+    },
+    "Part__Feature213": {
+      "key": "xl_rear_spacer_3",
+      "label_ko": "무릎 XL 뒤쪽 키 스페이서",
+      "cad_label": "DC11_A01_SPACER_DUMMY006",
+      "parent_names": [
+        "DC11_A01_DUMMY_ASM"
+      ],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          14.8
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -53.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          29.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        12.0,
+        15.900001489,
+        -14.25,
+        -7.75,
+        -56.75,
+        -50.25
+      ]
+    },
+    "Part__Feature214": {
+      "key": "xl_rear_spacer_4",
+      "label_ko": "무릎 XL 뒤쪽 키 스페이서",
+      "cad_label": "DC11_A01_SPACER_DUMMY007",
+      "parent_names": [
+        "DC11_A01_DUMMY_ASM"
+      ],
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          14.8
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          11.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -53.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          29.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        12.0,
+        15.900001489,
+        7.75,
+        14.25,
+        -56.75,
+        -50.25
+      ]
+    },
+    "Part__Feature277": {
+      "key": "xm_front_spacer_1",
+      "label_ko": "롤 XM 앞쪽 케이스 스페이서",
+      "cad_label": "DC12_A01_SPACER_RING_1_006",
+      "parent_names": [
+        "DC12_X430_DUMMY_ASSY_ASM_4_ASM"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          47.55
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -53.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -11.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          61.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -2.9,
+        1.9,
+        44.75,
+        47.550000008,
+        -55.9,
+        -51.1
+      ]
+    },
+    "Part__Feature278": {
+      "key": "xm_front_spacer_2",
+      "label_ko": "롤 XM 앞쪽 케이스 스페이서",
+      "cad_label": "DC12_A01_SPACER_RING_1_007",
+      "parent_names": [
+        "DC12_X430_DUMMY_ASSY_ASM_4_ASM"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -22.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          47.55
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -53.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -11.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          61.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -24.9,
+        -20.1,
+        44.75,
+        47.550000008,
+        -55.9,
+        -51.1
+      ]
+    },
+    "Part__Feature279": {
+      "key": "xm_front_spacer_3",
+      "label_ko": "롤 XM 앞쪽 케이스 스페이서",
+      "cad_label": "DC12_A01_SPACER_RING_1_008",
+      "parent_names": [
+        "DC12_X430_DUMMY_ASSY_ASM_4_ASM"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          47.55
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -93.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -11.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          61.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -2.9,
+        1.9,
+        44.75,
+        47.550000008,
+        -95.9,
+        -91.1
+      ]
+    },
+    "Part__Feature280": {
+      "key": "xm_front_spacer_4",
+      "label_ko": "롤 XM 앞쪽 케이스 스페이서",
+      "cad_label": "DC12_A01_SPACER_RING_1_009",
+      "parent_names": [
+        "DC12_X430_DUMMY_ASSY_ASM_4_ASM"
+      ],
+      "placement_to_L": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -22.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          47.55
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -93.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -11.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          61.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bbox_L": [
+        -24.9,
+        -20.1,
+        44.75,
+        47.550000008,
+        -95.9,
+        -91.1
+      ]
+    }
+  },
+  "motor_groups": {
+    "DC11_A01_DUMMY_ASM": {
+      "role": "knee",
+      "spec": "XL430-W250",
+      "cad_label": "XL430_knee_reference",
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          29.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_leaf_names": [
+        "Part__Feature",
+        "Part__Feature180",
+        "Part__Feature181",
+        "Part__Feature182",
+        "Part__Feature183",
+        "Part__Feature184",
+        "Part__Feature185",
+        "Part__Feature186",
+        "Part__Feature187",
+        "Part__Feature188",
+        "Part__Feature189",
+        "Part__Feature190",
+        "Part__Feature191",
+        "Part__Feature192",
+        "Part__Feature193",
+        "Part__Feature194",
+        "Part__Feature195",
+        "Part__Feature196",
+        "Part__Feature197",
+        "Part__Feature198",
+        "Part__Feature199",
+        "Part__Feature200",
+        "Part__Feature201",
+        "Part__Feature202",
+        "Part__Feature203",
+        "Part__Feature204",
+        "Part__Feature205",
+        "Part__Feature206",
+        "Part__Feature207",
+        "Part__Feature208",
+        "Part__Feature209",
+        "Part__Feature210",
+        "Part__Feature211",
+        "Part__Feature212",
+        "Part__Feature213",
+        "Part__Feature214"
+      ],
+      "main_body_leaf_names": [
+        "Part__Feature",
+        "Part__Feature180"
+      ],
+      "replace_stock_screw_groups": [
+        "FHS_M2_5X014",
+        "FHS_M2_5X015",
+        "FHS_M2_5X016",
+        "FHS_M2_5X017"
+      ],
+      "replace_stock_screw_leaves": [
+        "Part__Feature199",
+        "Part__Feature200",
+        "Part__Feature201",
+        "Part__Feature202",
+        "Part__Feature203",
+        "Part__Feature204",
+        "Part__Feature205",
+        "Part__Feature206"
+      ]
+    },
+    "DC11_A01_DUMMY_ASM001": {
+      "role": "pitch",
+      "spec": "XL430-W250",
+      "cad_label": "XL430_pitch_reference",
+      "placement_to_L": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -16.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_leaf_names": [
+        "Part__Feature215",
+        "Part__Feature216",
+        "Part__Feature217",
+        "Part__Feature218",
+        "Part__Feature219",
+        "Part__Feature220",
+        "Part__Feature221",
+        "Part__Feature222",
+        "Part__Feature223",
+        "Part__Feature224",
+        "Part__Feature225",
+        "Part__Feature226",
+        "Part__Feature227",
+        "Part__Feature228",
+        "Part__Feature229",
+        "Part__Feature230",
+        "Part__Feature231",
+        "Part__Feature232",
+        "Part__Feature233",
+        "Part__Feature234",
+        "Part__Feature235",
+        "Part__Feature236",
+        "Part__Feature237",
+        "Part__Feature238",
+        "Part__Feature239",
+        "Part__Feature240",
+        "Part__Feature241",
+        "Part__Feature242",
+        "Part__Feature243",
+        "Part__Feature244",
+        "Part__Feature245",
+        "Part__Feature246",
+        "Part__Feature247",
+        "Part__Feature248",
+        "Part__Feature249",
+        "Part__Feature250"
+      ],
+      "main_body_leaf_names": [
+        "Part__Feature215",
+        "Part__Feature216"
+      ]
+    },
+    "XM_H_430_IDLER_ASM": {
+      "role": "roll",
+      "spec": "XM430-W210",
+      "cad_label": "XM_H-430_IDLER_ASM",
+      "placement_to_L": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -11.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          61.75
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "shape_leaf_names": [
+        "Part__Feature264",
+        "Part__Feature265",
+        "Part__Feature266",
+        "Part__Feature267",
+        "Part__Feature268",
+        "Part__Feature269",
+        "Part__Feature270",
+        "Part__Feature271",
+        "Part__Feature272",
+        "Part__Feature273",
+        "Part__Feature274",
+        "Part__Feature275",
+        "Part__Feature276",
+        "Part__Feature277",
+        "Part__Feature278",
+        "Part__Feature279",
+        "Part__Feature280",
+        "Part__Feature281"
+      ],
+      "main_body_leaf_names": [
+        "Part__Feature264"
+      ],
+      "replace_stock_screw_leaves": [
+        "Part__Feature265",
+        "Part__Feature266",
+        "Part__Feature267",
+        "Part__Feature268"
+      ]
+    }
+  },
+  "fasteners": [
+    {
+      "id": "m3_large_joint",
+      "family": "m3_joint",
+      "spec": "M3x22 ISO4762",
+      "length_mm": 22,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        32.9375,
+        -142.5,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        54.9375,
+        -142.5,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature251": [
+          139,
+          207
+        ],
+        "Part__Feature252": [
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181
+        ],
+        "Part__Feature255": [
+          8
+        ]
+      },
+      "nut_seat_center_L": [
+        51.8125,
+        -142.5,
+        -85.5
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        53.0125,
+        -142.5,
+        -85.5
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature251",
+        139
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -2.750003048,
+          -1.587715
+        ],
+        [
+          0.0,
+          0.0,
+          -3.17543
+        ],
+        [
+          0.0,
+          2.750003048,
+          -1.587715
+        ],
+        [
+          0.0,
+          2.750003048,
+          1.587715
+        ],
+        [
+          0.0,
+          0.0,
+          3.17543
+        ],
+        [
+          0.0,
+          -2.750003048,
+          1.587715
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "m3_motor_link",
+      "family": "m3_joint",
+      "spec": "M3x12 ISO4762",
+      "length_mm": 12,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        49.5,
+        0,
+        -57
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        61.5,
+        0.0,
+        -57.0
+      ],
+      "evidence_faces": {
+        "Part__Feature253": [
+          69,
+          72,
+          73
+        ],
+        "Part__Feature256": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13,
+          16
+        ]
+      },
+      "nut_seat_center_L": [
+        57.3125,
+        0,
+        -57
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        58.5125,
+        0.0,
+        -57.0
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature253",
+        69
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -2.236829761,
+          -2.253869107
+        ],
+        [
+          0.0,
+          0.833493023,
+          -3.064085951
+        ],
+        [
+          0.0,
+          3.070322784,
+          -0.810216843
+        ],
+        [
+          0.0,
+          2.236829761,
+          2.253869107
+        ],
+        [
+          0.0,
+          -0.833493023,
+          3.064085951
+        ],
+        [
+          0.0,
+          -3.070322784,
+          0.810216843
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "m3_distal_link",
+      "family": "m3_joint",
+      "spec": "M3x14 ISO4762",
+      "length_mm": 14,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        47.8125,
+        -142.5,
+        -57
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        61.8125,
+        -142.5,
+        -57.0
+      ],
+      "evidence_faces": {
+        "Part__Feature252": [
+          144,
+          177,
+          182
+        ],
+        "Part__Feature257": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13,
+          16
+        ]
+      },
+      "nut_seat_center_L": [
+        57.1875,
+        -142.5,
+        -57
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        58.3875,
+        -142.5,
+        -57.0
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature252",
+        144
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -2.453635525,
+          -2.015689967
+        ],
+        [
+          0.0,
+          0.518820956,
+          -3.13275568
+        ],
+        [
+          0.0,
+          2.97245648,
+          -1.117065712
+        ],
+        [
+          0.0,
+          2.453635525,
+          2.015689967
+        ],
+        [
+          0.0,
+          -0.518820956,
+          3.13275568
+        ],
+        [
+          0.0,
+          -2.97245648,
+          1.117065712
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "m3_shank_upper",
+      "family": "m3_shank_foot",
+      "spec": "M3x18 ISO4762",
+      "length_mm": 18,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        48.8125,
+        -125.21717,
+        -132.98419
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        30.8125,
+        -125.21717,
+        -132.98419
+      ],
+      "evidence_faces": {
+        "Part__Feature251": [
+          44
+        ],
+        "Part__Feature252": [
+          22,
+          44,
+          53,
+          118,
+          129,
+          138
+        ]
+      },
+      "nut_seat_center_L": [
+        34.9375,
+        -125.21717,
+        -132.98419
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        33.7375,
+        -125.21717,
+        -132.98419
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature251",
+        44
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -2.432550506,
+          -2.041137059
+        ],
+        [
+          0.0,
+          0.551377633,
+          -3.127198083
+        ],
+        [
+          0.0,
+          2.983898139,
+          -1.086071024
+        ],
+        [
+          0.0,
+          2.432490506,
+          2.041117059
+        ],
+        [
+          0.0,
+          -0.551437633,
+          3.127178083
+        ],
+        [
+          0.0,
+          -2.983958139,
+          1.086051024
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "m3_shank_lower",
+      "family": "m3_shank_foot",
+      "spec": "M3x18 ISO4762",
+      "length_mm": 18,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        48.8125,
+        -125.21717,
+        -183.51581
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        30.8125,
+        -125.21717,
+        -183.51581
+      ],
+      "evidence_faces": {
+        "Part__Feature251": [
+          53
+        ],
+        "Part__Feature252": [
+          22,
+          44,
+          53,
+          118,
+          129,
+          138
+        ]
+      },
+      "nut_seat_center_L": [
+        34.9375,
+        -125.21717,
+        -183.51581
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        33.7375,
+        -125.21717,
+        -183.51581
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature251",
+        53
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -2.983958139,
+          -1.086051024
+        ],
+        [
+          0.0,
+          -0.551437633,
+          -3.127178083
+        ],
+        [
+          0.0,
+          2.432490506,
+          -2.041117059
+        ],
+        [
+          0.0,
+          2.983898139,
+          1.086071024
+        ],
+        [
+          0.0,
+          0.551377633,
+          3.127198083
+        ],
+        [
+          0.0,
+          -2.432550506,
+          2.041137059
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "m3_foot",
+      "family": "m3_shank_foot",
+      "spec": "M3x18 ISO4762",
+      "length_mm": 18,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        48.8125,
+        -142.5,
+        -231
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        30.8125,
+        -142.5,
+        -231.0
+      ],
+      "evidence_faces": {
+        "Part__Feature251": [
+          122
+        ],
+        "Part__Feature252": [
+          22,
+          44,
+          53,
+          118,
+          129,
+          138
+        ]
+      },
+      "nut_seat_center_L": [
+        34.9375,
+        -142.5,
+        -231
+      ],
+      "nut_thickness_mm": 2.4,
+      "nut_center_L": [
+        33.7375,
+        -142.5,
+        -231.0
+      ],
+      "head_diameter_mm": 5.5,
+      "head_height_mm": 3,
+      "verified_axis_face": [
+        "Part__Feature252",
+        53
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          0.0,
+          -1.587715,
+          -2.750003048
+        ],
+        [
+          0.0,
+          1.587715,
+          -2.750003048
+        ],
+        [
+          0.0,
+          3.17543,
+          0.0
+        ],
+        [
+          0.0,
+          1.587715,
+          2.750003048
+        ],
+        [
+          0.0,
+          -1.587715,
+          2.750003048
+        ],
+        [
+          0.0,
+          -3.17543,
+          0.0
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "pitch_horn_1",
+      "family": "pitch_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        9,
+        8,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        1.0,
+        8.0,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          231
+        ]
+      },
+      "horn_contact_center_L": [
+        3,
+        8,
+        -85.5
+      ],
+      "engagement_mm": 2,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature258",
+        231
+      ]
+    },
+    {
+      "id": "pitch_horn_2",
+      "family": "pitch_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        9,
+        0,
+        -77.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        1.0,
+        0.0,
+        -77.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          232
+        ]
+      },
+      "horn_contact_center_L": [
+        3,
+        0,
+        -77.5
+      ],
+      "engagement_mm": 2,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature258",
+        232
+      ]
+    },
+    {
+      "id": "pitch_horn_3",
+      "family": "pitch_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        9,
+        0,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        1.0,
+        0.0,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          233
+        ]
+      },
+      "horn_contact_center_L": [
+        3,
+        0,
+        -93.5
+      ],
+      "engagement_mm": 2,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature258",
+        233
+      ]
+    },
+    {
+      "id": "pitch_horn_4",
+      "family": "pitch_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        9,
+        -8,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        1.0,
+        -8.0,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          235
+        ]
+      },
+      "horn_contact_center_L": [
+        3,
+        -8,
+        -85.5
+      ],
+      "engagement_mm": 2,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature258",
+        235
+      ]
+    },
+    {
+      "id": "crank_horn_1",
+      "family": "crank_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        53.25,
+        0,
+        -77.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        45.25,
+        0.0,
+        -77.5
+      ],
+      "evidence_faces": {
+        "Part__Feature253": [
+          62
+        ]
+      },
+      "horn_contact_center_L": [
+        48,
+        0,
+        -77.5
+      ],
+      "engagement_mm": 2.75,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature253",
+        62
+      ]
+    },
+    {
+      "id": "crank_horn_2",
+      "family": "crank_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        53.25,
+        8,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        45.25,
+        8.0,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature253": [
+          63
+        ]
+      },
+      "horn_contact_center_L": [
+        48,
+        8,
+        -85.5
+      ],
+      "engagement_mm": 2.75,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature253",
+        63
+      ]
+    },
+    {
+      "id": "crank_horn_3",
+      "family": "crank_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        53.25,
+        -8,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        45.25,
+        -8.0,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature253": [
+          65
+        ]
+      },
+      "horn_contact_center_L": [
+        48,
+        -8,
+        -85.5
+      ],
+      "engagement_mm": 2.75,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature253",
+        65
+      ]
+    },
+    {
+      "id": "crank_horn_4",
+      "family": "crank_horn",
+      "spec": "M2x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        53.25,
+        0,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        -1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        45.25,
+        0.0,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature253": [
+          66
+        ]
+      },
+      "horn_contact_center_L": [
+        48,
+        0,
+        -93.5
+      ],
+      "engagement_mm": 2.75,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature253",
+        66
+      ]
+    },
+    {
+      "id": "roll_horn_1",
+      "family": "roll_horn",
+      "spec": "M2x6 ISO4762 + M2 washer t0.3",
+      "length_mm": 6,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -3.5,
+        38.45,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -3.5,
+        44.45,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          16
+        ]
+      },
+      "head_center_H": [
+        0.3,
+        -3.5,
+        -10
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "carrier_outer_center_L": [
+        -3.5,
+        38.75,
+        -85.5
+      ],
+      "horn_contact_center_L": [
+        -3.5,
+        42.75,
+        -85.5
+      ],
+      "washer_center_L": [
+        -3.5,
+        38.6,
+        -85.5
+      ],
+      "washer_ID_mm": 2.2,
+      "washer_OD_mm": 5,
+      "washer_thickness_mm": 0.3,
+      "engagement_mm": 1.7,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature260",
+        16
+      ]
+    },
+    {
+      "id": "roll_horn_2",
+      "family": "roll_horn",
+      "spec": "M2x6 ISO4762 + M2 washer t0.3",
+      "length_mm": 6,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -11.5,
+        38.45,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -11.5,
+        44.45,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          17
+        ]
+      },
+      "head_center_H": [
+        0.3,
+        -11.5,
+        -18
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "carrier_outer_center_L": [
+        -11.5,
+        38.75,
+        -93.5
+      ],
+      "horn_contact_center_L": [
+        -11.5,
+        42.75,
+        -93.5
+      ],
+      "washer_center_L": [
+        -11.5,
+        38.6,
+        -93.5
+      ],
+      "washer_ID_mm": 2.2,
+      "washer_OD_mm": 5,
+      "washer_thickness_mm": 0.3,
+      "engagement_mm": 1.7,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature260",
+        17
+      ]
+    },
+    {
+      "id": "roll_horn_3",
+      "family": "roll_horn",
+      "spec": "M2x6 ISO4762 + M2 washer t0.3",
+      "length_mm": 6,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -11.5,
+        38.45,
+        -77.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -11.5,
+        44.45,
+        -77.5
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          19
+        ]
+      },
+      "head_center_H": [
+        0.3,
+        -11.5,
+        -2
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "carrier_outer_center_L": [
+        -11.5,
+        38.75,
+        -77.5
+      ],
+      "horn_contact_center_L": [
+        -11.5,
+        42.75,
+        -77.5
+      ],
+      "washer_center_L": [
+        -11.5,
+        38.6,
+        -77.5
+      ],
+      "washer_ID_mm": 2.2,
+      "washer_OD_mm": 5,
+      "washer_thickness_mm": 0.3,
+      "engagement_mm": 1.7,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature260",
+        19
+      ]
+    },
+    {
+      "id": "roll_horn_4",
+      "family": "roll_horn",
+      "spec": "M2x6 ISO4762 + M2 washer t0.3",
+      "length_mm": 6,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -19.5,
+        38.45,
+        -85.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -19.5,
+        44.45,
+        -85.5
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          20
+        ]
+      },
+      "head_center_H": [
+        0.3,
+        -19.5,
+        -10
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "carrier_outer_center_L": [
+        -19.5,
+        38.75,
+        -85.5
+      ],
+      "horn_contact_center_L": [
+        -19.5,
+        42.75,
+        -85.5
+      ],
+      "washer_center_L": [
+        -19.5,
+        38.6,
+        -85.5
+      ],
+      "washer_ID_mm": 2.2,
+      "washer_OD_mm": 5,
+      "washer_thickness_mm": 0.3,
+      "engagement_mm": 1.7,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "verified_axis_face": [
+        "Part__Feature260",
+        20
+      ]
+    },
+    {
+      "id": "xl_rear_1",
+      "family": "xl_rear",
+      "spec": "M2.5x20 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 20,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        4.35,
+        -11,
+        -53.5
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        24.35,
+        -11.0,
+        -53.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          93
+        ]
+      },
+      "head_diameter_mm": 4.7,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature213",
+      "cone_endpoints_L": [
+        [
+          4.2,
+          -11,
+          -53.5
+        ],
+        [
+          5.3,
+          -11,
+          -53.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.5,
+        1.4
+      ],
+      "must_preinsert_before_pitch_horn": true,
+      "verified_axis_face": [
+        "Part__Feature258",
+        93
+      ]
+    },
+    {
+      "id": "xl_rear_2",
+      "family": "xl_rear",
+      "spec": "M2.5x20 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 20,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        4.35,
+        11,
+        -53.5
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        24.35,
+        11.0,
+        -53.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          94
+        ]
+      },
+      "head_diameter_mm": 4.7,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature214",
+      "cone_endpoints_L": [
+        [
+          4.2,
+          11,
+          -53.5
+        ],
+        [
+          5.3,
+          11,
+          -53.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.5,
+        1.4
+      ],
+      "must_preinsert_before_pitch_horn": true,
+      "verified_axis_face": [
+        "Part__Feature258",
+        94
+      ]
+    },
+    {
+      "id": "xl_rear_3",
+      "family": "xl_rear",
+      "spec": "M2.5x20 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 20,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        4.35,
+        -11,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        24.35,
+        -11.0,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          95
+        ]
+      },
+      "head_diameter_mm": 4.7,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature211",
+      "cone_endpoints_L": [
+        [
+          4.2,
+          -11,
+          -93.5
+        ],
+        [
+          5.3,
+          -11,
+          -93.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.5,
+        1.4
+      ],
+      "must_preinsert_before_pitch_horn": true,
+      "verified_axis_face": [
+        "Part__Feature258",
+        95
+      ]
+    },
+    {
+      "id": "xl_rear_4",
+      "family": "xl_rear",
+      "spec": "M2.5x20 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 20,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        4.35,
+        11,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        1,
+        0,
+        0
+      ],
+      "tip_center_L": [
+        24.35,
+        11.0,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature258": [
+          96
+        ]
+      },
+      "head_diameter_mm": 4.7,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature212",
+      "cone_endpoints_L": [
+        [
+          4.2,
+          11,
+          -93.5
+        ],
+        [
+          5.3,
+          11,
+          -93.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.5,
+        1.4
+      ],
+      "must_preinsert_before_pitch_horn": true,
+      "verified_axis_face": [
+        "Part__Feature258",
+        96
+      ]
+    },
+    {
+      "id": "xm_front_1",
+      "family": "xm_front",
+      "spec": "M2.5x14 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 14,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        -0.5,
+        43.5,
+        -53.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -0.5,
+        57.5,
+        -53.5
+      ],
+      "evidence_faces": {
+        "Part__Feature263": [
+          33
+        ]
+      },
+      "head_center_H": [
+        -4.75,
+        -0.5,
+        22
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "head_diameter_mm": 4.7,
+      "max_head_height_mm": 1.5,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature277",
+      "cone_endpoints_L": [
+        [
+          -0.5,
+          43.25,
+          -53.5
+        ],
+        [
+          -0.5,
+          44.45,
+          -53.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.6,
+        1.4
+      ],
+      "verified_axis_face": [
+        "Part__Feature263",
+        33
+      ]
+    },
+    {
+      "id": "xm_front_2",
+      "family": "xm_front",
+      "spec": "M2.5x14 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 14,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        -22.5,
+        43.5,
+        -53.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -22.5,
+        57.5,
+        -53.5
+      ],
+      "evidence_faces": {
+        "Part__Feature263": [
+          35
+        ]
+      },
+      "head_center_H": [
+        -4.75,
+        -22.5,
+        22
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "head_diameter_mm": 4.7,
+      "max_head_height_mm": 1.5,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature278",
+      "cone_endpoints_L": [
+        [
+          -22.5,
+          43.25,
+          -53.5
+        ],
+        [
+          -22.5,
+          44.45,
+          -53.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.6,
+        1.4
+      ],
+      "verified_axis_face": [
+        "Part__Feature263",
+        35
+      ]
+    },
+    {
+      "id": "xm_front_3",
+      "family": "xm_front",
+      "spec": "M2.5x14 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 14,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        -0.5,
+        43.5,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -0.5,
+        57.5,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature263": [
+          37
+        ]
+      },
+      "head_center_H": [
+        -4.75,
+        -0.5,
+        -18
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "head_diameter_mm": 4.7,
+      "max_head_height_mm": 1.5,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature279",
+      "cone_endpoints_L": [
+        [
+          -0.5,
+          43.25,
+          -93.5
+        ],
+        [
+          -0.5,
+          44.45,
+          -93.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.6,
+        1.4
+      ],
+      "verified_axis_face": [
+        "Part__Feature263",
+        37
+      ]
+    },
+    {
+      "id": "xm_front_4",
+      "family": "xm_front",
+      "spec": "M2.5x14 90deg countersunk DIN965 / ISO7046-2",
+      "length_mm": 14,
+      "head_reference": "nominal_head_top_plane_for_OD4.7",
+      "head_center_L": [
+        -22.5,
+        43.5,
+        -93.5
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -22.5,
+        57.5,
+        -93.5
+      ],
+      "evidence_faces": {
+        "Part__Feature263": [
+          40
+        ]
+      },
+      "head_center_H": [
+        -4.75,
+        -22.5,
+        -18
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "head_diameter_mm": 4.7,
+      "max_head_height_mm": 1.5,
+      "head_angle_deg": 90,
+      "spacer_object": "Part__Feature280",
+      "cone_endpoints_L": [
+        [
+          -22.5,
+          43.25,
+          -93.5
+        ],
+        [
+          -22.5,
+          44.45,
+          -93.5
+        ]
+      ],
+      "cone_radii_mm": [
+        2.6,
+        1.4
+      ],
+      "verified_axis_face": [
+        "Part__Feature263",
+        40
+      ]
+    },
+    {
+      "id": "carrier_260_1",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -22.0,
+        28.0,
+        -66.75
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "tip_center_L": [
+        -22.0,
+        28.0,
+        -74.75
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          23
+        ]
+      },
+      "head_center_H": [
+        10.75,
+        -22,
+        8.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        -1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -22.0,
+        28.0,
+        -71.25
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature260",
+        23
+      ]
+    },
+    {
+      "id": "carrier_260_2",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -10.0,
+        28.0,
+        -66.75
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "tip_center_L": [
+        -10.0,
+        28.0,
+        -74.75
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          24
+        ]
+      },
+      "head_center_H": [
+        10.75,
+        -10,
+        8.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        -1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -10.0,
+        28.0,
+        -71.25
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature260",
+        24
+      ]
+    },
+    {
+      "id": "carrier_260_3",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -22.0,
+        28.0,
+        -104.25
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tip_center_L": [
+        -22.0,
+        28.0,
+        -96.25
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          27
+        ]
+      },
+      "head_center_H": [
+        10.75,
+        -22,
+        -28.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -22.0,
+        28.0,
+        -99.75
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature260",
+        27
+      ]
+    },
+    {
+      "id": "carrier_260_4",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -10.0,
+        28.0,
+        -104.25
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tip_center_L": [
+        -10.0,
+        28.0,
+        -96.25
+      ],
+      "evidence_faces": {
+        "Part__Feature260": [
+          28
+        ]
+      },
+      "head_center_H": [
+        10.75,
+        -10,
+        -28.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -10.0,
+        28.0,
+        -99.75
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature260",
+        28
+      ]
+    },
+    {
+      "id": "carrier_261_1",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -22.0,
+        4.0,
+        -104.25
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tip_center_L": [
+        -22.0,
+        4.0,
+        -96.25
+      ],
+      "evidence_faces": {
+        "Part__Feature261": [
+          9
+        ]
+      },
+      "head_center_H": [
+        34.75,
+        -22,
+        -28.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -22.0,
+        4.0,
+        -99.75
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature261",
+        9
+      ]
+    },
+    {
+      "id": "carrier_261_2",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -10.0,
+        4.0,
+        -104.25
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tip_center_L": [
+        -10.0,
+        4.0,
+        -96.25
+      ],
+      "evidence_faces": {
+        "Part__Feature261": [
+          10
+        ]
+      },
+      "head_center_H": [
+        34.75,
+        -10,
+        -28.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -10.0,
+        4.0,
+        -99.75
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature261",
+        10
+      ]
+    },
+    {
+      "id": "carrier_261_3",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -22.0,
+        4.0,
+        -66.75
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "tip_center_L": [
+        -22.0,
+        4.0,
+        -74.75
+      ],
+      "evidence_faces": {
+        "Part__Feature261": [
+          26
+        ]
+      },
+      "head_center_H": [
+        34.75,
+        -22,
+        8.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        -1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -22.0,
+        4.0,
+        -71.25
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature261",
+        26
+      ]
+    },
+    {
+      "id": "carrier_261_4",
+      "family": "pitch_case_carrier",
+      "spec": "M2.6x8 ROBOTIS XL430 plastic-case tapping pan head",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -10.0,
+        4.0,
+        -66.75
+      ],
+      "insertion_axis_L": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "tip_center_L": [
+        -10.0,
+        4.0,
+        -74.75
+      ],
+      "evidence_faces": {
+        "Part__Feature261": [
+          27
+        ]
+      },
+      "head_center_H": [
+        34.75,
+        -10,
+        8.75
+      ],
+      "insertion_axis_H": [
+        0,
+        0,
+        -1
+      ],
+      "carrier_thickness_mm": 4.5,
+      "case_engagement_mm": 3.5,
+      "case_contact_center_L": [
+        -10.0,
+        4.0,
+        -71.25
+      ],
+      "head_geometry_note": "Use manufacturer-specific pan head; no unsupported head diameter inferred.",
+      "verified_axis_face": [
+        "Part__Feature261",
+        27
+      ]
+    },
+    {
+      "id": "support_1",
+      "family": "fixed_support",
+      "spec": "M2.5x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -36.5,
+        -19.25,
+        -78.0
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -36.5,
+        -11.25,
+        -78.0
+      ],
+      "evidence_faces": {
+        "Part__Feature262": [
+          24,
+          51
+        ],
+        "Part__Feature263": [
+          100,
+          101,
+          109,
+          113,
+          121,
+          122
+        ]
+      },
+      "head_center_H": [
+        58,
+        -36.5,
+        -2.5
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "nut_seat_center_L": [
+        -36.5,
+        -13.75,
+        -78.0
+      ],
+      "nut_thickness_mm": 2,
+      "nut_center_L": [
+        -36.5,
+        -12.75,
+        -78.0
+      ],
+      "head_diameter_mm": 4.5,
+      "head_height_mm": 2.5,
+      "nut_AF_mm": 5,
+      "blind_wall_center_L": [
+        -36.5,
+        -10.75,
+        -78.0
+      ],
+      "nut_side_insertion_axis_L": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "nut_side_entry": "from +H_Y opening toward -H_Y",
+      "verified_axis_face": [
+        "Part__Feature262",
+        24
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          -1.4433756729740645,
+          0,
+          -2.5
+        ],
+        [
+          1.4433756729740645,
+          0,
+          -2.5
+        ],
+        [
+          2.886751345948129,
+          0,
+          0
+        ],
+        [
+          1.4433756729740645,
+          0,
+          2.5
+        ],
+        [
+          -1.4433756729740645,
+          0,
+          2.5
+        ],
+        [
+          -2.886751345948129,
+          0,
+          0
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    },
+    {
+      "id": "support_2",
+      "family": "fixed_support",
+      "spec": "M2.5x8 ISO4762",
+      "length_mm": 8,
+      "head_reference": "underhead_plane",
+      "head_center_L": [
+        -36.5,
+        -19.25,
+        -93.0
+      ],
+      "insertion_axis_L": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "tip_center_L": [
+        -36.5,
+        -11.25,
+        -93.0
+      ],
+      "evidence_faces": {
+        "Part__Feature262": [
+          25,
+          52
+        ],
+        "Part__Feature263": [
+          100,
+          101,
+          109,
+          113,
+          121,
+          122
+        ]
+      },
+      "head_center_H": [
+        58,
+        -36.5,
+        -17.5
+      ],
+      "insertion_axis_H": [
+        -1,
+        0,
+        0
+      ],
+      "nut_seat_center_L": [
+        -36.5,
+        -13.75,
+        -93.0
+      ],
+      "nut_thickness_mm": 2,
+      "nut_center_L": [
+        -36.5,
+        -12.75,
+        -93.0
+      ],
+      "head_diameter_mm": 4.5,
+      "head_height_mm": 2.5,
+      "nut_AF_mm": 5,
+      "blind_wall_center_L": [
+        -36.5,
+        -10.75,
+        -93.0
+      ],
+      "nut_side_insertion_axis_L": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "nut_side_entry": "from +H_Y opening toward -H_Y",
+      "verified_axis_face": [
+        "Part__Feature262",
+        25
+      ],
+      "nut_polygon_vectors_L": [
+        [
+          -1.4433756729740645,
+          0,
+          -2.5
+        ],
+        [
+          1.4433756729740645,
+          0,
+          -2.5
+        ],
+        [
+          2.886751345948129,
+          0,
+          0
+        ],
+        [
+          1.4433756729740645,
+          0,
+          2.5
+        ],
+        [
+          -1.4433756729740645,
+          0,
+          2.5
+        ],
+        [
+          -2.886751345948129,
+          0,
+          0
+        ]
+      ],
+      "nut_polygon_usage": "Ordered corner offsets around nut center. Extrude +/− half nut thickness along insertion_axis_L. Support hex completed by symmetry because one side of pocket is open."
+    }
+  ],
+  "validation": {
+    "fastener_count_one_leg": 36,
+    "expected": 36,
+    "all_axes_match_live_CAD_faces": true,
+    "max_axis_line_error_mm": 5.151e-14,
+    "xl_spacers_211_to_214_match_released_reference": "Each unplaced solid compared against XL430_keyed_spacer_reference.FCStd Part__Feature028: both difference volumes0 mm3; volume97.901132634 mm3."
+  },
+  "assembly_warnings": [
+    "Preinsert all four XL rear M2.5x20 screws in empty thigh before pitch horn connection. Later tightening of lower screws uses temporary pitch-case rotations, not late insertion.",
+    "No M3 washer. Only roll-horn M2x6 positions receive 0.3 mm washers.",
+    "Support-to-yoke is M2.5, not M3.",
+    "Nominal CAD audit, not print-fit, load, full-motion or physical-assembly validation.",
+    "Small bearing positions are inferred and their root-fillet/inner-edge fit is unverified; ideal square-edged rings intersect each root by0.135156 mm3. Do not describe all bearing seating as collision-free."
+  ],
+  "bearings": [
+    {
+      "id": "small_motor",
+      "spec": "6x10x2.5",
+      "center_L": [
+        54.1875,
+        0,
+        -57
+      ],
+      "start_L": [
+        52.9375,
+        0,
+        -57
+      ],
+      "axis_L": [
+        1,
+        0,
+        0
+      ],
+      "width_mm": 2.5,
+      "ID_mm": 6,
+      "OD_mm": 10,
+      "evidence": {
+        "Part__Feature253": [
+          27,
+          38
+        ],
+        "Part__Feature256": [
+          8,
+          15
+        ],
+        "Part__Feature254": [
+          21
+        ]
+      },
+      "position_basis": "Inferred symmetric position around matched printed halfshaft end planes; no bearing solid is stored in assembly.",
+      "square_edged_ring_intersections_mm3": {
+        "Part__Feature253": 0.135156,
+        "Part__Feature256": 0.135156,
+        "Part__Feature254": 0
+      },
+      "fit_status": "NOT verified: inner-edge relief/root fillet compatibility needs trial. Straight Ø6 shaft spans X53.3125..55.0625, shorter than 2.5 bearing width."
+    },
+    {
+      "id": "small_distal",
+      "spec": "6x10x2.5",
+      "center_L": [
+        54.0625,
+        -142.5,
+        -57
+      ],
+      "start_L": [
+        52.8125,
+        -142.5,
+        -57
+      ],
+      "axis_L": [
+        1,
+        0,
+        0
+      ],
+      "width_mm": 2.5,
+      "ID_mm": 6,
+      "OD_mm": 10,
+      "evidence": {
+        "Part__Feature252": [
+          170,
+          179
+        ],
+        "Part__Feature257": [
+          8,
+          15
+        ],
+        "Part__Feature254": [
+          22
+        ]
+      },
+      "position_basis": "Inferred symmetric position around matched printed halfshaft end planes; no bearing solid is stored in assembly.",
+      "square_edged_ring_intersections_mm3": {
+        "Part__Feature252": 0.135156,
+        "Part__Feature257": 0.135156,
+        "Part__Feature254": 0
+      },
+      "fit_status": "NOT verified: inner-edge relief/root fillet compatibility needs trial. Straight Ø6 shaft spans X53.1875..54.9375, shorter than 2.5 bearing width."
+    },
+    {
+      "id": "large_leg",
+      "spec": "MR137ZZ 7x13x4",
+      "center_L": [
+        40.875,
+        -142.5,
+        -85.5
+      ],
+      "start_L": [
+        38.875,
+        -142.5,
+        -85.5
+      ],
+      "axis_L": [
+        1,
+        0,
+        0
+      ],
+      "width_mm": 4,
+      "ID_mm": 7,
+      "OD_mm": 13,
+      "evidence": {
+        "Part__Feature251": [
+          1,
+          3
+        ],
+        "Part__Feature255": [
+          1,
+          3
+        ],
+        "Part__Feature258": [
+          441
+        ]
+      },
+      "position_basis": "Centered on shared halfshaft end plane X40.875 and housing bore center.",
+      "square_edged_ring_intersections_mm3": {
+        "Part__Feature251": 0,
+        "Part__Feature255": 0,
+        "Part__Feature258": 0
+      },
+      "housing_bore_axis_extent_LX": [
+        38.375,
+        43.375
+      ],
+      "straight_shaft_extent_LX": [
+        38.75,
+        43.0
+      ]
+    },
+    {
+      "id": "roll",
+      "spec": "MR137ZZ 7x13x4",
+      "center_L": [
+        -11.5,
+        -14.75,
+        -85.5
+      ],
+      "start_L": [
+        -11.5,
+        -12.75,
+        -85.5
+      ],
+      "axis_L": [
+        0,
+        -1,
+        0
+      ],
+      "width_mm": 4,
+      "ID_mm": 7,
+      "OD_mm": 13,
+      "center_H": [
+        53.5,
+        -11.5,
+        -10
+      ],
+      "housing_bore_HX": [
+        51.5,
+        55.5
+      ],
+      "housing_diameter_mm": 13.15,
+      "evidence": {
+        "Part__Feature261": [
+          37
+        ],
+        "Part__Feature262": [
+          1
+        ]
+      },
+      "position_basis": "Full 4 mm housing depth, H X51.5 shoulder to H X55.5 entry.",
+      "square_edged_ring_intersections_mm3": {
+        "Part__Feature260": 0.0,
+        "Part__Feature261": 0.0,
+        "Part__Feature262": 0.0,
+        "Part__Feature263": 0.0
+      }
+    }
+  ]
+}
