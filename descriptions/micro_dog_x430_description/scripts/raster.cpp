@@ -1,0 +1,5 @@
+#include <vector>
+#include <fstream>
+#include <cmath>
+#include <algorithm>
+int main(int argc,char**argv){int w=atoi(argv[3]),h=atoi(argv[4]);std::ifstream in(argv[1],std::ios::binary);int n;in.read((char*)&n,4);std::vector<float> z(w*h,-1e30);std::vector<unsigned char> im(w*h*3,255);float t[12];for(int k=0;k<n;k++){in.read((char*)t,48);float den=(t[4]-t[7])*(t[0]-t[6])+(t[6]-t[3])*(t[1]-t[7]);if(fabs(den)<1e-7)continue;int xmin=std::max(0,(int)floor(std::min({t[0],t[3],t[6]}))),xmax=std::min(w-1,(int)ceil(std::max({t[0],t[3],t[6]})));int ymin=std::max(0,(int)floor(std::min({t[1],t[4],t[7]}))),ymax=std::min(h-1,(int)ceil(std::max({t[1],t[4],t[7]})));for(int y=ymin;y<=ymax;y++)for(int x=xmin;x<=xmax;x++){float a=((t[4]-t[7])*(x-t[6])+(t[6]-t[3])*(y-t[7]))/den,b=((t[7]-t[1])*(x-t[6])+(t[0]-t[6])*(y-t[7]))/den,c=1-a-b;if(a<0||b<0||c<0)continue;float d=a*t[2]+b*t[5]+c*t[8];int p=y*w+x;if(d>z[p]){z[p]=d;for(int j=0;j<3;j++)im[3*p+j]=std::min(255.f,std::max(0.f,t[9+j]));}}}std::ofstream out(argv[2],std::ios::binary);out<<"P6\n"<<w<<" "<<h<<"\n255\n";out.write((char*)im.data(),im.size());}

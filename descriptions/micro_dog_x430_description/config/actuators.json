@@ -1,0 +1,78 @@
+{
+  "warning": "Logical position-control mapping only. No calibrated drive gains or hardware ID/zero/sign mapping. Knee angle is equivalent joint, not XL shaft.",
+  "control_mode": "position",
+  "actuators": [
+    {
+      "joint": "FL_roll_joint",
+      "motor_family": "XM430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "FL_pitch_joint",
+      "motor_family": "XL430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "FL_knee_joint",
+      "motor_family": "XL430",
+      "mapping": "requires linkage conversion",
+      "hardware_id": null
+    },
+    {
+      "joint": "FR_roll_joint",
+      "motor_family": "XM430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "FR_pitch_joint",
+      "motor_family": "XL430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "FR_knee_joint",
+      "motor_family": "XL430",
+      "mapping": "requires linkage conversion",
+      "hardware_id": null
+    },
+    {
+      "joint": "RL_roll_joint",
+      "motor_family": "XM430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "RL_pitch_joint",
+      "motor_family": "XL430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "RL_knee_joint",
+      "motor_family": "XL430",
+      "mapping": "requires linkage conversion",
+      "hardware_id": null
+    },
+    {
+      "joint": "RR_roll_joint",
+      "motor_family": "XM430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "RR_pitch_joint",
+      "motor_family": "XL430",
+      "mapping": "requires calibrated direction and zero",
+      "hardware_id": null
+    },
+    {
+      "joint": "RR_knee_joint",
+      "motor_family": "XL430",
+      "mapping": "requires linkage conversion",
+      "hardware_id": null
+    }
+  ]
+}

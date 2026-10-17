@@ -1,0 +1,18 @@
+item,specification,quantity,use
+M2 × 8,원통머리 ISO 4762,32,피치 혼 16 + 크랭크 혼 16
+M2 × 6,원통머리 ISO 4762,16,롤 혼 / 각 나사에 0.3 와셔
+M2.6 × 8,XL430 지정 팬머리 태핑,32,피치 케이스 측면
+M2.5 × 20,십자 90° 접시 / 머리 Ø≤4.7,16,무릎 뒤쪽 / XL 스페이서
+M2.5 × 14,"십자 90° 접시 / Ø≤4.7, 높이≤1.5",16,XM 앞쪽 / XM 스페이서
+M2.5 × 8,원통머리 ISO 4762,8,고정 지지대–요크
+M3 × 22,원통머리 ISO 4762,4,큰 다리 관절
+M3 × 12,원통머리 ISO 4762,4,푸시로드 모터쪽
+M3 × 14,원통머리 ISO 4762,4,푸시로드 종아리쪽
+M3 × 18,원통머리 ISO 4762,12,종아리 중간 8 + 발 4
+M3 nut,Hex AF 5.5 mm x thickness 2.4 mm,24,Leg linkage
+M2.5 nut,Hex AF 5 mm x thickness 2 mm,8,Support to yoke
+M2 washer,ID 2.2 x OD 5 x thickness 0.3 mm,16,Roll horn
+MR137ZZ,7 x 13 x 4 mm,8,Roll + large leg pivot
+Small bearing,6 x 10 x 2.5 mm,8,Pushrod pivots
+XM430-W210,DYNAMIXEL roll actuator,4,Reference; horns/center fasteners excluded from screw count
+XL430-W250,DYNAMIXEL pitch and knee actuator,8,Reference; horns/center fasteners excluded from screw count

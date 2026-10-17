@@ -1,0 +1,1045 @@
+{
+  "units": "mm; axis unit vectors; transforms apply column homogeneous points",
+  "source_files": [
+    "FreeCAD_Workspace/Micro_Dog_X430_working/RR_complete_leg_pelvis_final.FCStd",
+    "FreeCAD_Workspace/Micro_Dog_X430_working/Micro_Dog_X430_four_corner_overview.FCStd"
+  ],
+  "robot_convention": "x forward toward FR/FL; y left toward LR/FL; z up opposite gravity. Origin at midpoint of the four roll horn centers. This is inferred from corner labels and geometry, not an explicit CAD coordinate system.",
+  "overview_to_robot": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -52.5
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      -45.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      27.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rr_part_local_to_rr_assembly_global": [
+    [
+      0.0,
+      -1.0,
+      0.0,
+      38.75
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      75.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rr_global_joint_axis_lines": {
+    "roll": {
+      "point": [
+        0,
+        -11.5,
+        -10
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "evidence": "Part__Feature260 4.2 mm radius coaxial bore at (0,-11.5,-10); Feature261/262 share line."
+    },
+    "pitch": {
+      "point": [
+        38.75,
+        2.9,
+        -10
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "evidence": "Part__Feature258 4.2 mm radius horn aperture at (38.75,2.9,-10); XL430_pitch_reference global origin (38.75,-16,-10), axis global +Y."
+    },
+    "knee": {
+      "point": [
+        181.25,
+        41.0625,
+        -10
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "evidence": "Feature251 3.5 mm radius axle bore; Feature252/258 share X=181.25,Z=-10. Y selected as foot sleeve midplane; axis point may be shifted along Y without affecting motion."
+    },
+    "foot_attachment": {
+      "point": [
+        181.25,
+        41.0625,
+        -155.5
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "evidence": "Feature259 concentric 6,9,12,16.5 mm radius surfaces at X=181.25,Z=-155.5; sleeve Y limits 36.9375,45.1875, center41.0625. This is attachment center, not ground contact."
+    }
+  },
+  "dimensions": {
+    "pitch_to_knee_axis_distance": 142.5,
+    "knee_to_foot_attachment_axis_distance": 145.5,
+    "crank_radius": 28.5,
+    "pushrod_pin_distance": 142.5,
+    "roll_horn_front_rear_distance": 190,
+    "roll_horn_left_right_distance": 58
+  },
+  "corners": {
+    "RR": {
+      "overview_compound": "Compound007",
+      "compound_placement": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -42.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -17.5
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          -4.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_leg": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -95.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_pelvis": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -95.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_leg": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          -133.75
+        ],
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -40.5
+        ],
+        [
+          -0.0,
+          -0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_pelvis": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          -133.75
+        ],
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -40.5
+        ],
+        [
+          -0.0,
+          -0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joints_robot_mm": {
+        "roll": {
+          "point": [
+            -95.0,
+            -29.0,
+            0.0
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pitch": {
+          "point": [
+            -133.75,
+            -43.4,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "knee": {
+          "point": [
+            -276.25,
+            -81.5625,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "foot_attachment": {
+          "point": [
+            -276.25,
+            -81.5625,
+            -145.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      },
+      "roll_motor_aabb_robot_mm": [
+        [
+          -95.7,
+          -43.25,
+          -11.25
+        ],
+        [
+          -53.0,
+          -14.75,
+          35.25
+        ]
+      ],
+      "foot_aabb_robot_mm": [
+        [
+          -295.740296594,
+          -88.6875,
+          -164.998540225
+        ],
+        [
+          -256.786041881,
+          -74.4375,
+          -128.876961145
+        ]
+      ],
+      "foot_lowest_mesh_point_robot_mm": [
+        -276.487289076,
+        -81.5625,
+        -164.998540225
+      ]
+    },
+    "LR": {
+      "overview_compound": "Compound",
+      "compound_placement": [
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -42.5
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          -37.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_leg": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -95.0
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          40.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_pelvis": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -95.0
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          40.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_leg": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          -133.75
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          40.5
+        ],
+        [
+          -0.0,
+          -0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_pelvis": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          -133.75
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          40.5
+        ],
+        [
+          -0.0,
+          -0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joints_robot_mm": {
+        "roll": {
+          "point": [
+            -95.0,
+            29.0,
+            0.0
+          ],
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pitch": {
+          "point": [
+            -133.75,
+            43.4,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "knee": {
+          "point": [
+            -276.25,
+            81.5625,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "foot_attachment": {
+          "point": [
+            -276.25,
+            81.5625,
+            -145.5
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      "roll_motor_aabb_robot_mm": [
+        [
+          -95.7,
+          14.75,
+          -11.25
+        ],
+        [
+          -53.0,
+          43.25,
+          35.25
+        ]
+      ],
+      "foot_aabb_robot_mm": [
+        [
+          -295.740296594,
+          74.4375,
+          -164.998540225
+        ],
+        [
+          -256.786041881,
+          88.6875,
+          -128.876961145
+        ]
+      ],
+      "foot_lowest_mesh_point_robot_mm": [
+        -276.487289076,
+        81.5625,
+        -164.998540225
+      ]
+    },
+    "FR": {
+      "overview_compound": "Compound008",
+      "compound_placement": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          147.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -37.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_leg": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          172.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_pelvis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          95.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_leg": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          133.75
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_pelvis": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          133.75
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joints_robot_mm": {
+        "roll": {
+          "point": [
+            95.0,
+            -29.0,
+            -0.0
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pitch": {
+          "point": [
+            133.75,
+            -43.4,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "knee": {
+          "point": [
+            -8.75,
+            -81.5625,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "foot_attachment": {
+          "point": [
+            -8.75,
+            -81.5625,
+            -145.5
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      },
+      "roll_motor_aabb_robot_mm": [
+        [
+          53.0,
+          -43.25,
+          -11.25
+        ],
+        [
+          95.7,
+          -14.75,
+          35.25
+        ]
+      ],
+      "foot_aabb_robot_mm": [
+        [
+          -28.240296594,
+          -88.6875,
+          -164.998540225
+        ],
+        [
+          10.713958119,
+          -74.4375,
+          -128.876961145
+        ]
+      ],
+      "foot_lowest_mesh_point_robot_mm": [
+        -8.987289076,
+        -81.5625,
+        -164.998540225
+      ]
+    },
+    "FL": {
+      "overview_compound": "Compound009",
+      "compound_placement": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          147.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -17.5
+        ],
+        [
+          -0.0,
+          -1.0,
+          0.0,
+          -85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_leg": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          172.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_global_to_robot_pelvis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          95.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_leg": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          133.75
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rr_part_local_to_robot_pelvis": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          133.75
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          40.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          85.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joints_robot_mm": {
+        "roll": {
+          "point": [
+            95.0,
+            29.0,
+            -0.0
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pitch": {
+          "point": [
+            133.75,
+            43.4,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "knee": {
+          "point": [
+            -8.75,
+            81.5625,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "foot_attachment": {
+          "point": [
+            -8.75,
+            81.5625,
+            -145.5
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      "roll_motor_aabb_robot_mm": [
+        [
+          53.0,
+          14.75,
+          -11.25
+        ],
+        [
+          95.7,
+          43.25,
+          35.25
+        ]
+      ],
+      "foot_aabb_robot_mm": [
+        [
+          -28.240296594,
+          74.4375,
+          -164.998540225
+        ],
+        [
+          10.713958119,
+          88.6875,
+          -128.876961145
+        ]
+      ],
+      "foot_lowest_mesh_point_robot_mm": [
+        -8.987289076,
+        81.5625,
+        -164.998540225
+      ]
+    }
+  },
+  "semantic_groups": {
+    "base": [
+      "roll",
+      "262",
+      "263",
+      "277",
+      "278",
+      "279",
+      "280"
+    ],
+    "hip_roll": [
+      "260",
+      "261",
+      "pitch"
+    ],
+    "upper_thigh": [
+      "258",
+      "knee",
+      "211",
+      "212",
+      "213",
+      "214"
+    ],
+    "lower_shank": [
+      "251",
+      "252",
+      "255"
+    ],
+    "foot": [
+      "259"
+    ],
+    "omit_in_serial_surrogate": [
+      "253",
+      "254",
+      "256",
+      "257"
+    ]
+  },
+  "warnings": [
+    "Four-corner overview includes only printed solids; applying identical transforms to motors is a reconstruction, not independently modeled motor instances.",
+    "Front leg is mirrored in X about 38.75 mm; front pelvis is not. Rear/front and left/right transforms must be selected by group.",
+    "Closed parallelogram uses crank/pushrod linkage. A serial knee revolute is a reduced kinematic approximation; omitted crank and pushrod must not be frozen into thigh/shank visuals.",
+    "Foot is fixed only as a simulation choice. CAD attachment permits an axis; material/contact properties cannot be inferred from geometry.",
+    "As-modeled pose has horizontal upper thighs and vertical shanks, not a typical standing crouch. Joint-zero conversion must be explicit.",
+    "Motor mesh exports contain assembled horns. Keeping each complete servo mesh with its housing means its visual horn is not independently animated.",
+    "Foot attachment center is approximately 19.499 mm above lowest tessellated CAD foot surface (0.05 mm tessellation) in as-modeled pose; OCC Shape.BoundBox is looser on curved geometry. Do not place contact sphere at attachment center without measuring actual mesh offset."
+  ],
+  "transform_selection": {
+    "base": "pelvis",
+    "hip_roll": "pelvis",
+    "upper_thigh": "leg",
+    "lower_shank": "leg",
+    "foot": "leg",
+    "note": "Use pelvis transform for pitch servo. Front motor instances are reconstructed, not present in overview."
+  },
+  "recommended_chassis_surrogate": {
+    "option_long_narrow_box_mm": [
+      180,
+      24,
+      20
+    ],
+    "option_short_wide_box_mm": [
+      100,
+      58,
+      20
+    ],
+    "center_robot_mm": [
+      0,
+      0,
+      0
+    ],
+    "note": "Conservative geometric suggestion to avoid roll-motor envelopes, not a designed or structurally validated chassis."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "notes": "All dimensions are meters, angles radians. PRELIMINARY dynamics and limits, not motor specifications. Body dimensions do not move hip mounts; edit hip_attachments separately.",
+  "body_length": 0.18,
+  "body_width": 0.024,
+  "body_height": 0.02,
+  "body_mass": 0.6,
+  "fixed_mount_mass_each": 0.12,
+  "hip_attachments": {
+    "FL": [
+      0.095,
+      0.029,
+      0.0
+    ],
+    "FR": [
+      0.095,
+      -0.029,
+      0.0
+    ],
+    "RL": [
+      -0.095,
+      0.029,
+      0.0
+    ],
+    "RR": [
+      -0.095,
+      -0.029,
+      0.0
+    ]
+  },
+  "joint_limits": {
+    "roll": [
+      -0.6,
+      0.6
+    ],
+    "pitch": [
+      -1.2,
+      1.2
+    ],
+    "knee": [
+      -1.4,
+      1.4
+    ]
+  },
+  "joint_damping": 0.02,
+  "dynamics": {
+    "hip": {
+      "mass": 0.09,
+      "effort": 1.0,
+      "velocity": 2.0
+    },
+    "thigh": {
+      "mass": 0.12,
+      "effort": 0.5,
+      "velocity": 2.0
+    },
+    "shank": {
+      "mass": 0.07,
+      "effort": 0.5,
+      "velocity": 2.0
+    },
+    "foot": {
+      "mass": 0.02,
+      "effort": 0.5,
+      "velocity": 2.0
+    }
+  }
+}

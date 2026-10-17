@@ -1,0 +1,3802 @@
+{
+  "passed": true,
+  "check_count": 512,
+  "failed_checks": [],
+  "mesh_count": 32,
+  "input_sha256": {
+    "config/actuators.json": "8c995208ee3eb7713ae99a894f800028f1338914e8afa210f357e9a75e0b2ca8",
+    "config/cad_frames.json": "d7f4417d7eaf8f9079afbe21755334e523a71de6d68f89a0e29a898724a96189",
+    "config/cad_geometry.json": "19a03112577e315677b9336b161033f53ca0e1a2a0d5991f6c006d484006bc0e",
+    "config/robot_parameters.json": "23163f91e1d9bfcdb887b9af5aa5f3a9e86675eade27bfc99e8b2bf6b26baf7b",
+    "scripts/export_cad_meshes.py": "30dde6b1fdd74bafdad42a49e13cc73c3293d1dfbe55be8b5be92c0d4f8b81d9",
+    "scripts/generate_urdf.py": "7fd2b43ff5851fd28a5486c6737f65ce358e1818deed54bd0e56c5f94ee3a1e4",
+    "urdf/micro_dog_x430.urdf": "22e794f0d97abe67634fc4eac85dd4cea3757b47a679b9e980ca3c7c716451d1",
+    "urdf/micro_dog_x430_ros.urdf": "bf4d8e09b7673327e40ef5afa9cc9acc6f2ce00d534080439957ed34f81fbe46"
+  },
+  "checks": [
+    {
+      "name": "micro_dog_x430.urdf: counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: unique names",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: one parent per child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: all references resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: connected acyclic base root",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RR_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin RL_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FR_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin FL_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: axis FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: limits FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia base_link",
+      "passed": true,
+      "details": {
+        "mass_kg": 1.08,
+        "principal_inertias_kg_m2": [
+          0.0006524799999999998,
+          0.006171999999999999,
+          0.0065844799999999985
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive base_link",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive base_link",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_base_printed.stl",
+      "passed": true,
+      "details": [
+        0.07150000147521496,
+        0.044999999925494194,
+        0.04899999964982271
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_base_motor.stl",
+      "passed": true,
+      "details": [
+        0.04269999940879643,
+        0.02850000001490116,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_base_printed.stl",
+      "passed": true,
+      "details": [
+        0.07150000147521496,
+        0.044999999925494194,
+        0.04899999964982271
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_base_motor.stl",
+      "passed": true,
+      "details": [
+        0.04269999940879643,
+        0.02850000001490116,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_base_printed.stl",
+      "passed": true,
+      "details": [
+        0.07150000147521496,
+        0.044999999925494194,
+        0.04899999964982271
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_base_motor.stl",
+      "passed": true,
+      "details": [
+        0.04269999940879643,
+        0.02850000001490116,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_base_printed.stl",
+      "passed": true,
+      "details": [
+        0.07150000147521496,
+        0.044999999925494194,
+        0.04899999964982271
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_base_motor.stl",
+      "passed": true,
+      "details": [
+        0.04269999940879643,
+        0.02850000001490116,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RR_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_hip_printed.stl",
+      "passed": true,
+      "details": [
+        0.05950000090524554,
+        0.032999999821186066,
+        0.03750000149011612
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_hip_motor.stl",
+      "passed": true,
+      "details": [
+        0.04650000063702464,
+        0.04089999943971634,
+        0.02850000001490116
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RR_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.00034329733735705457,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_thigh_printed.stl",
+      "passed": true,
+      "details": [
+        0.1792487818747759,
+        0.04162499850644963,
+        0.060750000178813934
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_thigh_motor.stl",
+      "passed": true,
+      "details": [
+        0.02850000001490116,
+        0.040899998508393764,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RR_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_shank_printed.stl",
+      "passed": true,
+      "details": [
+        0.04945387318730354,
+        0.023125000298023224,
+        0.19649673625826836
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RR_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025442e-06,
+          4.7047798729643285e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RR_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RR_foot_foot.stl",
+      "passed": true,
+      "details": [
+        0.03896288760006428,
+        0.01425000000745058,
+        0.03612148016691208
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RL_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_hip_printed.stl",
+      "passed": true,
+      "details": [
+        0.05950000090524554,
+        0.032999999821186066,
+        0.03750000149011612
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_hip_motor.stl",
+      "passed": true,
+      "details": [
+        0.04650000063702464,
+        0.04089999943971634,
+        0.02850000001490116
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RL_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.00034329733735705457,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_thigh_printed.stl",
+      "passed": true,
+      "details": [
+        0.1792487818747759,
+        0.04162499850644963,
+        0.060750000178813934
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_thigh_motor.stl",
+      "passed": true,
+      "details": [
+        0.02850000001490116,
+        0.040899998508393764,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RL_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_shank_printed.stl",
+      "passed": true,
+      "details": [
+        0.04945387318730354,
+        0.023125000298023224,
+        0.19649673625826836
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia RL_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025442e-06,
+          4.7047798729643285e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive RL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/RL_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent RL_foot_foot.stl",
+      "passed": true,
+      "details": [
+        0.03896288760006428,
+        0.01425000000745058,
+        0.03612148016691208
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FR_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_hip_printed.stl",
+      "passed": true,
+      "details": [
+        0.05950000090524554,
+        0.032999999821186066,
+        0.03750000149011612
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_hip_motor.stl",
+      "passed": true,
+      "details": [
+        0.04650000063702464,
+        0.04089999943971634,
+        0.02850000001490116
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FR_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.0003432973373570546,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_thigh_printed.stl",
+      "passed": true,
+      "details": [
+        0.1792487818747759,
+        0.04162499850644963,
+        0.060750000178813934
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_thigh_motor.stl",
+      "passed": true,
+      "details": [
+        0.02850000001490116,
+        0.040899998508393764,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FR_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_shank_printed.stl",
+      "passed": true,
+      "details": [
+        0.04945387318730354,
+        0.023125000298023224,
+        0.19649673625826836
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FR_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025476e-06,
+          4.704779872964332e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FR_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FR_foot_foot.stl",
+      "passed": true,
+      "details": [
+        0.03896288760006428,
+        0.01425000000745058,
+        0.03612148016691208
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FL_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_hip_printed.stl",
+      "passed": true,
+      "details": [
+        0.05950000090524554,
+        0.032999999821186066,
+        0.03750000149011612
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_hip_motor.stl",
+      "passed": true,
+      "details": [
+        0.04650000063702464,
+        0.04089999943971634,
+        0.02850000001490116
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FL_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.0003432973373570546,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_thigh_printed.stl",
+      "passed": true,
+      "details": [
+        0.1792487818747759,
+        0.04162499850644963,
+        0.060750000178813934
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_thigh_motor.stl",
+      "passed": true,
+      "details": [
+        0.02850000001490116,
+        0.040899998508393764,
+        0.04650000110268593
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FL_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_shank_printed.stl",
+      "passed": true,
+      "details": [
+        0.04945387318730354,
+        0.023125000298023224,
+        0.19649673625826836
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: physical inertia FL_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025476e-06,
+          4.704779872964332e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: box positive FL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: mesh resolves ../meshes/FL_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "STL metric finite extent FL_foot_foot.stl",
+      "passed": true,
+      "details": [
+        0.03896288760006428,
+        0.01425000000745058,
+        0.03612148016691208
+      ]
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FL_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.095,
+          0.029,
+          0.0
+        ],
+        "reference_m": [
+          0.095,
+          0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FL_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.13375,
+          0.0434,
+          0.0
+        ],
+        "reference_m": [
+          0.13375,
+          0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FL_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.00875,
+          0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FL_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.00875,
+          0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FL_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FL_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FL_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FR_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.095,
+          -0.029,
+          0.0
+        ],
+        "reference_m": [
+          0.095,
+          -0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FR_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.13375,
+          -0.0434,
+          0.0
+        ],
+        "reference_m": [
+          0.13375,
+          -0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FR_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          -0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.00875,
+          -0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK FR_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          -0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.00875,
+          -0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FR_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FR_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis FR_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RL_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.095,
+          0.029,
+          0.0
+        ],
+        "reference_m": [
+          -0.095,
+          0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RL_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.13375,
+          0.0434,
+          0.0
+        ],
+        "reference_m": [
+          -0.13375,
+          0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RL_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.27625,
+          0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RL_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.27625,
+          0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RL_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RL_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RL_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RR_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.095,
+          -0.029,
+          0.0
+        ],
+        "reference_m": [
+          -0.095,
+          -0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RR_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.13375,
+          -0.0434,
+          0.0
+        ],
+        "reference_m": [
+          -0.13375,
+          -0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RR_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          -0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.27625,
+          -0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD zero FK RR_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          -0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.27625,
+          -0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RR_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RR_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430.urdf: CAD axis RR_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: unique names",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: one parent per child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: all references resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: connected acyclic base root",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RR_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin RL_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FR_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin FL_foot_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin inertial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: rigid origin collision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits RL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FR_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FR_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FR_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FL_roll_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FL_pitch_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: axis FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: limits FL_knee_joint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia base_link",
+      "passed": true,
+      "details": {
+        "mass_kg": 1.08,
+        "principal_inertias_kg_m2": [
+          0.0006524799999999998,
+          0.006171999999999999,
+          0.0065844799999999985
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive base_link",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive base_link",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RR_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RR_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.00034329733735705457,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RR_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RR_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025442e-06,
+          4.7047798729643285e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RR_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RL_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RL_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.00034329733735705457,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RL_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia RL_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025442e-06,
+          4.7047798729643285e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive RL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/RL_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FR_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FR_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.0003432973373570546,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FR_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FR_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025476e-06,
+          4.704779872964332e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FR_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FL_hip",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.09,
+        "principal_inertias_kg_m2": [
+          2.3154374999999998e-05,
+          3.7098749999999994e-05,
+          3.9159374999999995e-05
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_hip_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_hip_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FL_thigh",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.12,
+        "principal_inertias_kg_m2": [
+          5.8901725000001044e-05,
+          0.0003432973373570546,
+          0.0003582068623570538
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_thigh_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_thigh_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FL_shank",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.07,
+        "principal_inertias_kg_m2": [
+          1.7385965868053547e-05,
+          0.00022835009359258309,
+          0.0002394971271689699
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_shank_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: physical inertia FL_foot",
+      "passed": true,
+      "details": {
+        "mass_kg": 0.02,
+        "principal_inertias_kg_m2": [
+          2.5130397347617853e-06,
+          2.8686151382025476e-06,
+          4.704779872964332e-06
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: box positive FL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: mesh resolves package://micro_dog_x430_description/meshes/FL_foot_foot.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FL_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.095,
+          0.029,
+          0.0
+        ],
+        "reference_m": [
+          0.095,
+          0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FL_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.13375,
+          0.0434,
+          0.0
+        ],
+        "reference_m": [
+          0.13375,
+          0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FL_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.00875,
+          0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FL_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.00875,
+          0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FL_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FL_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FL_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FR_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.095,
+          -0.029,
+          0.0
+        ],
+        "reference_m": [
+          0.095,
+          -0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FR_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          0.13375,
+          -0.0434,
+          0.0
+        ],
+        "reference_m": [
+          0.13375,
+          -0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FR_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          -0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.00875,
+          -0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK FR_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.00874999999999998,
+          -0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.00875,
+          -0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FR_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FR_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis FR_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RL_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.095,
+          0.029,
+          0.0
+        ],
+        "reference_m": [
+          -0.095,
+          0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RL_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.13375,
+          0.0434,
+          0.0
+        ],
+        "reference_m": [
+          -0.13375,
+          0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RL_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.27625,
+          0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RL_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.27625,
+          0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RL_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RL_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RL_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RR_hip",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.095,
+          -0.029,
+          0.0
+        ],
+        "reference_m": [
+          -0.095,
+          -0.029,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RR_thigh",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.13375,
+          -0.0434,
+          0.0
+        ],
+        "reference_m": [
+          -0.13375,
+          -0.0434,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RR_shank",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          -0.08156250000000001,
+          0.0
+        ],
+        "reference_m": [
+          -0.27625,
+          -0.0815625,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD zero FK RR_foot",
+      "passed": true,
+      "details": {
+        "position_m": [
+          -0.27625,
+          -0.08156250000000001,
+          -0.1455
+        ],
+        "reference_m": [
+          -0.27625,
+          -0.0815625,
+          -0.1455
+        ]
+      }
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RR_roll",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RR_pitch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "micro_dog_x430_ros.urdf: CAD axis RR_knee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds RL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Geometry mesh bounds FL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CAD orthogonal RR compound_placement",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal RR rr_global_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal RR rr_global_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal RR rr_part_local_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal RR rr_part_local_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal LR compound_placement",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal LR rr_global_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal LR rr_global_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal LR rr_part_local_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal LR rr_part_local_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FR compound_placement",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FR rr_global_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FR rr_global_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FR rr_part_local_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FR rr_part_local_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FL compound_placement",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FL rr_global_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FL rr_global_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FL rr_part_local_to_robot_leg",
+      "passed": true,
+      "details": {
+        "determinant": -1.0
+      }
+    },
+    {
+      "name": "CAD orthogonal FL rr_part_local_to_robot_pelvis",
+      "passed": true,
+      "details": {
+        "determinant": 1.0
+      }
+    },
+    {
+      "name": "Body-only change preserves all joint definitions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Body-only change updates visual collision and inertia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK base_link",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK RL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FR_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FR_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FR_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FR_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FL_hip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FL_thigh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FL_shank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment FK FL_foot",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual box",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/RR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/RR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/RL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/RL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/FR_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/FR_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/FL_base_printed.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Single attachment base visual ../meshes/FL_base_motor.stl",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Aggregate base inertia original",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Aggregate base inertia hip_shift",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "meshes": {
+    "RR_base_printed.stl": {
+      "triangles": 71320,
+      "min_m": [
+        -0.061500001698732376,
+        -0.01600000075995922,
+        -0.012500000186264515
+      ],
+      "max_m": [
+        0.009999999776482582,
+        0.028999999165534973,
+        0.0364999994635582
+      ],
+      "sha256": "c33e5c57dfbad5dbf7b100671d1858d0a0ed3c65ec494fe523fed75ffe63f467"
+    },
+    "RR_base_motor.stl": {
+      "triangles": 81292,
+      "min_m": [
+        -0.000699999975040555,
+        -0.01425000000745058,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.041999999433755875,
+        0.01425000000745058,
+        0.03525000065565109
+      ],
+      "sha256": "2f5f93729bf4ca74a03a03840d2baaca1a2a8a798a6410f1246cef49a062c7bd"
+    },
+    "RL_base_printed.stl": {
+      "triangles": 71320,
+      "min_m": [
+        -0.061500001698732376,
+        -0.028999999165534973,
+        -0.012500000186264515
+      ],
+      "max_m": [
+        0.009999999776482582,
+        0.01600000075995922,
+        0.0364999994635582
+      ],
+      "sha256": "7b908ebaa65d499f81225cfbb5bd9e8acb5d2aaecf2991adf0cc2215ab994720"
+    },
+    "RL_base_motor.stl": {
+      "triangles": 81292,
+      "min_m": [
+        -0.000699999975040555,
+        -0.01425000000745058,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.041999999433755875,
+        0.01425000000745058,
+        0.03525000065565109
+      ],
+      "sha256": "827a1033d80dd510bc571ed2ce76f4cc0573ee4f9e9cdc2467722ed0a4c12324"
+    },
+    "FR_base_printed.stl": {
+      "triangles": 71320,
+      "min_m": [
+        -0.009999999776482582,
+        -0.01600000075995922,
+        -0.012500000186264515
+      ],
+      "max_m": [
+        0.061500001698732376,
+        0.028999999165534973,
+        0.0364999994635582
+      ],
+      "sha256": "c73efa11a24d2c38367cb489908686cd82248ea4b956017b6cc81fb7edb638e1"
+    },
+    "FR_base_motor.stl": {
+      "triangles": 81292,
+      "min_m": [
+        -0.041999999433755875,
+        -0.01425000000745058,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.000699999975040555,
+        0.01425000000745058,
+        0.03525000065565109
+      ],
+      "sha256": "fe66419ec728841d08c061fb9e78e3c8cfeec1bff0223b49ababad550f77773f"
+    },
+    "FL_base_printed.stl": {
+      "triangles": 71320,
+      "min_m": [
+        -0.009999999776482582,
+        -0.028999999165534973,
+        -0.012500000186264515
+      ],
+      "max_m": [
+        0.061500001698732376,
+        0.01600000075995922,
+        0.0364999994635582
+      ],
+      "sha256": "2ce17f2bd405e5823fdc9d38bda0a12618ad385cf2a47d8d54d688035727ff60"
+    },
+    "FL_base_motor.stl": {
+      "triangles": 81292,
+      "min_m": [
+        -0.041999999433755875,
+        -0.01425000000745058,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.000699999975040555,
+        0.01425000000745058,
+        0.03525000065565109
+      ],
+      "sha256": "0e8ba4a87fd5afee01a8970db63d3d593ad3c6a491462229590bd5adb872c736"
+    },
+    "RR_hip_printed.stl": {
+      "triangles": 13786,
+      "min_m": [
+        -0.05550000071525574,
+        -0.016499999910593033,
+        -0.01875000074505806
+      ],
+      "max_m": [
+        0.004000000189989805,
+        0.016499999910593033,
+        0.01875000074505806
+      ],
+      "sha256": "fd97035ea347eeb1e327b74e3aa7fc40b22f7ab91354324b933080a09d15e04e"
+    },
+    "RR_hip_motor.stl": {
+      "triangles": 54513,
+      "min_m": [
+        -0.05000000074505806,
+        -0.01640000008046627,
+        -0.01425000000745058
+      ],
+      "max_m": [
+        -0.0035000001080334187,
+        0.02449999935925007,
+        0.01425000000745058
+      ],
+      "sha256": "e1b4ee6269f2e51ffe1632aec9df68328ad2b2f5c107f83754dc784fbeea0b57"
+    },
+    "RR_thigh_printed.stl": {
+      "triangles": 207634,
+      "min_m": [
+        -0.15824878215789795,
+        -0.041724998503923416,
+        -0.017999999225139618
+      ],
+      "max_m": [
+        0.020999999716877937,
+        -9.999999747378752e-05,
+        0.042750000953674316
+      ],
+      "sha256": "dcd90a06bc25eeaa88802101ec22a783eaebed24ba15b9cf536ab0c3fa6676a9"
+    },
+    "RR_thigh_motor.stl": {
+      "triangles": 63601,
+      "min_m": [
+        -0.01425000000745058,
+        -0.04699999839067459,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.01425000000745058,
+        -0.006099999882280827,
+        0.03525000065565109
+      ],
+      "sha256": "38bed8fc70a253db1667316bb1695ef5cdef65e78e3fd999bc08e7ae0614315b"
+    },
+    "RR_shank_printed.stl": {
+      "triangles": 145350,
+      "min_m": [
+        -0.01574966311454773,
+        -0.013000000268220901,
+        -0.15749673545360565
+      ],
+      "max_m": [
+        0.033704210072755814,
+        0.010125000029802322,
+        0.039000000804662704
+      ],
+      "sha256": "8c66702219232dfbc2c510c0deea667f832e09990f453ad3d18dd7aefd36b65c"
+    },
+    "RR_foot_foot.stl": {
+      "triangles": 114972,
+      "min_m": [
+        -0.0194989163428545,
+        -0.00712500000372529,
+        -0.019498540088534355
+      ],
+      "max_m": [
+        0.019463971257209778,
+        0.00712500000372529,
+        0.016622940078377724
+      ],
+      "sha256": "aac5a27e2b3834a8accac5da9f897b0749eb309ab6e94b694904982061ee3d6b"
+    },
+    "RL_hip_printed.stl": {
+      "triangles": 13786,
+      "min_m": [
+        -0.05550000071525574,
+        -0.016499999910593033,
+        -0.01875000074505806
+      ],
+      "max_m": [
+        0.004000000189989805,
+        0.016499999910593033,
+        0.01875000074505806
+      ],
+      "sha256": "5e88642776df47dfae408d792a2b9552e1fb5ef320141a81b2bbde3ddba326a6"
+    },
+    "RL_hip_motor.stl": {
+      "triangles": 54513,
+      "min_m": [
+        -0.05000000074505806,
+        -0.02449999935925007,
+        -0.01425000000745058
+      ],
+      "max_m": [
+        -0.0035000001080334187,
+        0.01640000008046627,
+        0.01425000000745058
+      ],
+      "sha256": "599f494c654298efa0214ca1b6999767f40ddf9f08b1298f207cf096464620be"
+    },
+    "RL_thigh_printed.stl": {
+      "triangles": 207634,
+      "min_m": [
+        -0.15824878215789795,
+        9.999999747378752e-05,
+        -0.017999999225139618
+      ],
+      "max_m": [
+        0.020999999716877937,
+        0.041724998503923416,
+        0.042750000953674316
+      ],
+      "sha256": "36093b4a2ccc9d9d1080eee76ac1a14a2b9b2a44a5a9fd2a6d619223edcb8701"
+    },
+    "RL_thigh_motor.stl": {
+      "triangles": 63601,
+      "min_m": [
+        -0.01425000000745058,
+        0.006099999882280827,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.01425000000745058,
+        0.04699999839067459,
+        0.03525000065565109
+      ],
+      "sha256": "2ad9db7b00311e427cf43fc06de0cfb03946a8c1ba628cff221f2cc6955abe18"
+    },
+    "RL_shank_printed.stl": {
+      "triangles": 145350,
+      "min_m": [
+        -0.01574966311454773,
+        -0.010125000029802322,
+        -0.15749673545360565
+      ],
+      "max_m": [
+        0.033704210072755814,
+        0.013000000268220901,
+        0.039000000804662704
+      ],
+      "sha256": "6c36ca6bd8d4b11c531bdc8f1b14f46d6cbc104e194409f10649a8d499918ba9"
+    },
+    "RL_foot_foot.stl": {
+      "triangles": 114972,
+      "min_m": [
+        -0.0194989163428545,
+        -0.00712500000372529,
+        -0.019498540088534355
+      ],
+      "max_m": [
+        0.019463971257209778,
+        0.00712500000372529,
+        0.016622940078377724
+      ],
+      "sha256": "095389a26ad26bc94700f6a19f2ec7230579619e16c1784f44e028bb347c9379"
+    },
+    "FR_hip_printed.stl": {
+      "triangles": 13786,
+      "min_m": [
+        -0.004000000189989805,
+        -0.016499999910593033,
+        -0.01875000074505806
+      ],
+      "max_m": [
+        0.05550000071525574,
+        0.016499999910593033,
+        0.01875000074505806
+      ],
+      "sha256": "ab5e17f311bbe1d1fb22e9972c7cc1d18ed976064699eb16ae5ccb32be3a5a65"
+    },
+    "FR_hip_motor.stl": {
+      "triangles": 54513,
+      "min_m": [
+        0.0035000001080334187,
+        -0.01640000008046627,
+        -0.01425000000745058
+      ],
+      "max_m": [
+        0.05000000074505806,
+        0.02449999935925007,
+        0.01425000000745058
+      ],
+      "sha256": "92f9068c8e6b8a6c2c45e566171aa2ee3a0ace3906f9222789bf878a500304f6"
+    },
+    "FR_thigh_printed.stl": {
+      "triangles": 207634,
+      "min_m": [
+        -0.15824878215789795,
+        -0.041724998503923416,
+        -0.017999999225139618
+      ],
+      "max_m": [
+        0.020999999716877937,
+        -9.999999747378752e-05,
+        0.042750000953674316
+      ],
+      "sha256": "76b829bfc13666b50987ba0ae1ddf6c189a65d5c6bba90dc1d270c03ea481ebd"
+    },
+    "FR_thigh_motor.stl": {
+      "triangles": 63601,
+      "min_m": [
+        -0.01425000000745058,
+        -0.04699999839067459,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.01425000000745058,
+        -0.006099999882280827,
+        0.03525000065565109
+      ],
+      "sha256": "c07fb01e12f3a5c8927bd73488daf4b2d0c52c4bad91bcef04e06828961610fb"
+    },
+    "FR_shank_printed.stl": {
+      "triangles": 145350,
+      "min_m": [
+        -0.01574966311454773,
+        -0.013000000268220901,
+        -0.15749673545360565
+      ],
+      "max_m": [
+        0.033704210072755814,
+        0.010125000029802322,
+        0.039000000804662704
+      ],
+      "sha256": "d72af314d1cfbbd9bf7db7f3420794de5aff85f801ed90a72c2db7ae9ae36a44"
+    },
+    "FR_foot_foot.stl": {
+      "triangles": 114972,
+      "min_m": [
+        -0.0194989163428545,
+        -0.00712500000372529,
+        -0.019498540088534355
+      ],
+      "max_m": [
+        0.019463971257209778,
+        0.00712500000372529,
+        0.016622940078377724
+      ],
+      "sha256": "e3fbc5c0fef2001d308cfe0f2dac5e3916e93aef280bc252c55772fe45e393f7"
+    },
+    "FL_hip_printed.stl": {
+      "triangles": 13786,
+      "min_m": [
+        -0.004000000189989805,
+        -0.016499999910593033,
+        -0.01875000074505806
+      ],
+      "max_m": [
+        0.05550000071525574,
+        0.016499999910593033,
+        0.01875000074505806
+      ],
+      "sha256": "bebaea9014cf5566977dc2a11b5f2766bae884c6604aa5dd931379d036738718"
+    },
+    "FL_hip_motor.stl": {
+      "triangles": 54513,
+      "min_m": [
+        0.0035000001080334187,
+        -0.02449999935925007,
+        -0.01425000000745058
+      ],
+      "max_m": [
+        0.05000000074505806,
+        0.01640000008046627,
+        0.01425000000745058
+      ],
+      "sha256": "d4424d24558a6e153c87ea8b73d1ae850cd6d4240175ca2c08eeb40ac7441e0e"
+    },
+    "FL_thigh_printed.stl": {
+      "triangles": 207634,
+      "min_m": [
+        -0.15824878215789795,
+        9.999999747378752e-05,
+        -0.017999999225139618
+      ],
+      "max_m": [
+        0.020999999716877937,
+        0.041724998503923416,
+        0.042750000953674316
+      ],
+      "sha256": "1b0012d9163fd1833534c2cb853e020a7c912e67e5e33c59f56a32cc3bfac9d5"
+    },
+    "FL_thigh_motor.stl": {
+      "triangles": 63601,
+      "min_m": [
+        -0.01425000000745058,
+        0.006099999882280827,
+        -0.011250000447034836
+      ],
+      "max_m": [
+        0.01425000000745058,
+        0.04699999839067459,
+        0.03525000065565109
+      ],
+      "sha256": "5fb996e686de00ca976487bcd13e67603cff84935cc6f810de594009aa68c2ae"
+    },
+    "FL_shank_printed.stl": {
+      "triangles": 145350,
+      "min_m": [
+        -0.01574966311454773,
+        -0.010125000029802322,
+        -0.15749673545360565
+      ],
+      "max_m": [
+        0.033704210072755814,
+        0.013000000268220901,
+        0.039000000804662704
+      ],
+      "sha256": "19a5967744d7e99a887b77cb34afde6680ce8c82df50c8363a4c4d8b6b75f406"
+    },
+    "FL_foot_foot.stl": {
+      "triangles": 114972,
+      "min_m": [
+        -0.0194989163428545,
+        -0.00712500000372529,
+        -0.019498540088534355
+      ],
+      "max_m": [
+        0.019463971257209778,
+        0.00712500000372529,
+        0.016622940078377724
+      ],
+      "sha256": "a16662097a80b81ce70f3f08640d915813c3801120e9b2151b74994012708961"
+    }
+  },
+  "limitations": [
+    "Parser-level validation does not validate physical dynamics or simulator contact stability.",
+    "Masses, bounding-box inertias, collision boxes and limits are preliminary estimates, not measured hardware specifications.",
+    "Knee is an equivalent serial revolute, not motor shaft angle; omitted closed-loop linkage is not simulated.",
+    "Front pitch motors are reconstructed with pelvis transforms; no independently modeled front motor instances exist in overview CAD.",
+    "Joint link rotations are proper rotations. CAD mirror transforms are baked into mesh geometry and may have determinant -1."
+  ],
+  "cad_warnings": [
+    "Four-corner overview includes only printed solids; applying identical transforms to motors is a reconstruction, not independently modeled motor instances.",
+    "Front leg is mirrored in X about 38.75 mm; front pelvis is not. Rear/front and left/right transforms must be selected by group.",
+    "Closed parallelogram uses crank/pushrod linkage. A serial knee revolute is a reduced kinematic approximation; omitted crank and pushrod must not be frozen into thigh/shank visuals.",
+    "Foot is fixed only as a simulation choice. CAD attachment permits an axis; material/contact properties cannot be inferred from geometry.",
+    "As-modeled pose has horizontal upper thighs and vertical shanks, not a typical standing crouch. Joint-zero conversion must be explicit.",
+    "Motor mesh exports contain assembled horns. Keeping each complete servo mesh with its housing means its visual horn is not independently animated.",
+    "Foot attachment center is approximately 19.499 mm above lowest tessellated CAD foot surface (0.05 mm tessellation) in as-modeled pose; OCC Shape.BoundBox is looser on curved geometry. Do not place contact sphere at attachment center without measuring actual mesh offset."
+  ]
+}
