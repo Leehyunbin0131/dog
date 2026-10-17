@@ -1,11 +1,9 @@
-# Rebuild the REV 2 assembly manual
+# Assembly manual revision and source status
 
-The current, reviewed 31-page manual is [Micro_Dog_X430_Assembly_Manual_KO.pdf](assembly/Micro_Dog_X430_Assembly_Manual_KO.pdf).
+The current reviewed 31-page PDF is [Micro_Dog_X430_Assembly_Manual_KO.pdf](assembly/Micro_Dog_X430_Assembly_Manual_KO.pdf), REV 3, SHA-256 `f3ee08bcffafed3f60d5535f5efc6403afcbbb276325d1daff7912f2ade109fe`.
 
-Reproducible inputs and commands are in [manual_v2/source/README.md](assembly/manual_v2/source/README.md). The package includes the CAD-derived frozen mesh export, renderer C++/Python sources, final PNG illustrations, font-subset generator and subset font, and the frozen previous PDF used only as a layout/text template. No source CAD geometry is modified.
+REV 3 fixes Korean-caption rendering compatibility using ReportLab TrueType subset embedding. All 31 pages were rendered and individually inspected with Ghostscript and PDFium; Poppler also rendered all pages. Normalized text matches REV 2 except revision labels. CAD, figures, BOM and assembly sequence are unchanged.
 
-The old `base_revision1.pdf` is a build input, not the current assembly guide. Do not follow its superseded illustrations.
+The existing [source directory](assembly/manual_v2/source/README.md) currently retains the REV 2 pipeline, frozen geometry and illustrations. It does not yet reproduce the corrected REV 3 embedding. Recovery of the REV 3 font/build sources is pending after a workspace restart. Use the delivered PDF for assembly; do not substitute a PDF regenerated from the old pipeline.
 
-Publication verification: rebuilding the PDF from the relocated source/assets and frozen template produced pixel-identical output on all 31 pages at 72 dpi. The delivered PDF is the exact separately approved revision, SHA-256 `95d5a4e7eca46312946c1a699aa11fdd93f82e8862afd268c6134025ec167164`.
-
-This is a CAD-based explanatory manual, not physical validation. Small-bearing corner/fillet fit, real tools, print tolerances, cables, load, fastener torque and all-corner physical fit still require tests.
+The retained base_revision1.pdf is a legacy build input, not the current assembly guide. Physical fit, tool access, print tolerance, cables, load and torque still require testing.
