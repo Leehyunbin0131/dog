@@ -13,10 +13,11 @@ Micro_Dog를 바탕으로 만든 X430 시험용 기구 프로젝트입니다. �
 
 ![Four-corner printed assembly](images/64_four_corner_printed_overview_edges.jpg)
 
-## 최신 제작 파일 (대퇴 v6 얇은 평면 뒤쪽 정리)
+## 현재 배포: 대퇴 v2
 
-- [최종 Google Drive ZIP](https://drive.google.com/file/d/16QBDgSmI6tbEF90oM57XQGUR9OvJf8UD/view?usp=drivesdk) (기존 접근 권한이 있는 Google 계정 필요)
-- [v6 변경 사항·구매 부품 영향](docs/THIGH_V6.md)
+사용자 선택에 따라 RR/LH 대퇴 STL·STEP·편집 원본을 기존 v2로 복귀했습니다. v6는 Git 이력에 보존됩니다. 추가 구매 부품 변경은 없습니다.
+
+[최종 Google Drive ZIP](https://drive.google.com/file/d/16QBDgSmI6tbEF90oM57XQGUR9OvJf8UD/view?usp=drivesdk) · 기존 접근 권한이 있는 Google 계정이 필요합니다.
 
 ## 먼저 보기
 
@@ -28,9 +29,7 @@ Micro_Dog를 바탕으로 만든 X430 시험용 기구 프로젝트입니다. �
 - [파라미터형 URDF 패키지](descriptions/micro_dog_x430_description/)
 - [검증 범위와 한계](docs/VALIDATION.md) · [출처와 라이선스](ATTRIBUTION.md)
 
-조립 설명서는 **REV 3**입니다. 일부 PDF 뷰어에서 한글 캡션이 깨지던 글꼴 임베딩 방식을 수정했습니다. Ghostscript와 PDFium으로 31쪽 전체를 각각 검토했고 Poppler 렌더링도 확인했습니다. REV 2의 그림·조립 내용은 그대로입니다. [재생성 방법](docs/REBUILD_MANUAL.md)과 [소스·그림·고정 메시 입력](docs/assembly/manual_v2/)도 포함합니다. PDF REV 3 자체는 변경하지 않았습니다. 대퇴 v6 제조 형상은 아래 변경 기록을 따르세요.
-
-v6는 기존 윤곽과 뒤쪽 돌출을 정리한 형상입니다. 접합부 전체를 새로 로프트 설계한 버전은 아닙니다. 추가 구매 부품 변경은 없습니다.
+조립 설명서는 **REV 3**입니다. 일부 PDF 뷰어에서 한글 캡션이 깨지던 글꼴 임베딩 방식을 수정했습니다. Ghostscript와 PDFium으로 31쪽 전체를 각각 검토했고 Poppler 렌더링도 확인했습니다. REV 2의 그림·조립 내용은 그대로입니다. [재생성 방법](docs/REBUILD_MANUAL.md)과 [소스·그림·고정 메시 입력](docs/assembly/manual_v2/)도 포함합니다. 기구 형상은 변경하지 않았습니다.
 
 ## 현재 범위
 
@@ -58,7 +57,7 @@ FreeCAD 작업 문서의 숨긴 중간 형상까지 출력하지 마세요. 제�
 
 ## 큰 파일 복원
 
-업로드 전송 한도 때문에 RR/LH 대퇴 v6가 함께 든 FreeCAD 원본은 `.FCStd.part001` 등으로 손실 없이 나누어 보관했습니다. v6 STL/STEP는 바로 사용할 수 있습니다. 아래 복원 명령은 SHA-256을 확인한 뒤 원래 파일명으로 복구합니다. 다른 STL/STEP 및 URDF 메시는 바로 사용할 수 있습니다.
+업로드 전송 한도 때문에 대퇴 STL 두 개는 `.stl.gz`, 오른쪽 대퇴 FreeCAD 원본 한 개는 `.FCStd.part001`/`.part002`로 손실 없이 보관했습니다. 아래 복원 명령은 SHA-256을 확인한 뒤 원래 파일명으로 복구합니다. 다른 STL/STEP 및 URDF 메시는 바로 사용할 수 있습니다.
 
 ## 검사
 
